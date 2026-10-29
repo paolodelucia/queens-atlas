@@ -1,0 +1,35 @@
+# ---- DATA NEVER LEAVES THIS MACHINE ----
+# Raw scrape, derived tables and anything containing per-person rows.
+/data/
+*.json
+*.jsonl
+*.parquet
+*.duckdb
+*.duckdb.wal
+*.csv
+# Reports may quote individual profiles; only commit ones explicitly allow-listed.
+reports/*
+!reports/.gitkeep
+
+# Private notes (legal brief, launch drafts, voice guide): kept on this machine only
+/docs/
+
+# Secrets
+.env
+*.key
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# ---- Site ----
+# The site's own config (package.json, tsconfig...) and its published aggregates are allowed;
+# the aggregates are produced by pipeline/0[7-8]_export_*.py and every count in them is >= k.
+!site/**/*.json
+site/node_modules/
+site/dist/
+site/test-results/
+site/playwright-report/
+site/.vite/
+*.tsbuildinfo

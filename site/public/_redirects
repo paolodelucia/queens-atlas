@@ -1,0 +1,8 @@
+# App routes render the SPA; anything else (including a missing /assets or /data file) is a real 404.
+/river      /index.html   200
+/diaspora   /index.html   200
+/twin       /index.html   200
+/method     /index.html   200
+# Program share pages are static files (dist/p/<slug>/index.html, written at build time), never the SPA.
+/p/:slug    /p/:slug/index.html   200
+/*          /404.html     404

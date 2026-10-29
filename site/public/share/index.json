@@ -1,0 +1,2570 @@
+{
+ "generated": "2026-10-28",
+ "cards": [
+  {
+   "slug": "undergrad-commerce",
+   "level": "undergrad",
+   "program": "Commerce",
+   "title": "Commerce at Queen’s",
+   "ogTitle": "Commerce at Queen’s: where 3,525 grads went",
+   "description": "36% of Commerce grads started in finance & accounting. 46% work in a different field today than their first job. 1 in 6 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Commerce at Queen’s. 3,525 grads. 36% of Commerce grads started in finance & accounting. 46% work in a different field today than their first job. 1 in 6 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Commerce",
+   "image": "/share/undergrad-commerce.jpg",
+   "stats": [
+    "36% started in finance & accounting (1,252 of 3,525 grads, first job after graduating)",
+    "46% work in a different field today than their first job (1,358 of 2,938 grads with a job at both points)",
+    "1 in 6 live outside Canada today (590 of 3,522 grads with a known location, 223 in the US)"
+   ]
+  },
+  {
+   "slug": "mba",
+   "level": "mba",
+   "program": "MBA",
+   "title": "MBA at Queen’s",
+   "ogTitle": "MBA at Queen’s: where 2,931 grads went",
+   "description": "23% of MBA grads started in operations & management. 53% work in a different field today than their first job. 1 in 8 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "MBA at Queen’s. 2,931 grads. 23% of MBA grads started in operations & management. 53% work in a different field today than their first job. 1 in 8 live outside Canada today.",
+   "href": "/twin?level=mba&program=MBA",
+   "image": "/share/mba.jpg",
+   "stats": [
+    "23% started in operations & management (661 of 2,931 grads, first job after graduating)",
+    "53% work in a different field today than their first job (1,302 of 2,469 grads with a job at both points)",
+    "1 in 8 live outside Canada today (345 of 2,929 grads with a known location, 105 in the US)"
+   ]
+  },
+  {
+   "slug": "law",
+   "level": "law",
+   "program": "Law",
+   "title": "Law (JD) at Queen’s",
+   "ogTitle": "Law (JD) at Queen’s: where 2,231 grads went",
+   "description": "83% of Law (JD) grads started in law. 18% work in a different field today than their first job. 1 in 34 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Law (JD) at Queen’s. 2,231 grads. 83% of Law (JD) grads started in law. 18% work in a different field today than their first job. 1 in 34 live outside Canada today.",
+   "href": "/twin?level=law&program=Law",
+   "image": "/share/law.jpg",
+   "stats": [
+    "83% started in law (1,858 of 2,231 grads, first job after graduating)",
+    "18% work in a different field today than their first job (348 of 1,905 grads with a job at both points)",
+    "1 in 34 live outside Canada today (65 of 2,224 grads with a known location, 30 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-education",
+   "level": "undergrad",
+   "program": "Education",
+   "title": "Education (undergrad) at Queen’s",
+   "ogTitle": "Education (undergrad) at Queen’s: where 2,195 grads went",
+   "description": "58% of Education grads started in teaching. 39% work in a different field today than their first job. 1 in 12 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Education (undergrad) at Queen’s. 2,195 grads. 58% of Education grads started in teaching. 39% work in a different field today than their first job. 1 in 12 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Education",
+   "image": "/share/undergrad-education.jpg",
+   "stats": [
+    "58% started in teaching (1,269 of 2,195 grads, first job after graduating)",
+    "39% work in a different field today than their first job (698 of 1,807 grads with a job at both points)",
+    "1 in 12 live outside Canada today (183 of 2,188 grads with a known location, 27 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-mechanical-engineering",
+   "level": "undergrad",
+   "program": "Mechanical Engineering",
+   "title": "Mechanical Engineering (undergrad) at Queen’s",
+   "ogTitle": "Mechanical Engineering (undergrad) at Queen’s: where 1,494 grads went",
+   "description": "47% of Mechanical Engineering grads started in engineering. 52% work in a different field today than their first job. 1 in 10 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Mechanical Engineering (undergrad) at Queen’s. 1,494 grads. 47% of Mechanical Engineering grads started in engineering. 52% work in a different field today than their first job. 1 in 10 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Mechanical+Engineering",
+   "image": "/share/undergrad-mechanical-engineering.jpg",
+   "stats": [
+    "47% started in engineering (704 of 1,494 grads, first job after graduating)",
+    "52% work in a different field today than their first job (571 of 1,108 grads with a job at both points)",
+    "1 in 10 live outside Canada today (151 of 1,494 grads with a known location, 85 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-economics",
+   "level": "undergrad",
+   "program": "Economics",
+   "title": "Economics (undergrad) at Queen’s",
+   "ogTitle": "Economics (undergrad) at Queen’s: where 1,091 grads went",
+   "description": "22% of Economics grads started in finance & accounting. 54% work in a different field today than their first job. 1 in 8 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Economics (undergrad) at Queen’s. 1,091 grads. 22% of Economics grads started in finance & accounting. 54% work in a different field today than their first job. 1 in 8 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Economics",
+   "image": "/share/undergrad-economics.jpg",
+   "stats": [
+    "22% started in finance & accounting (240 of 1,091 grads, first job after graduating)",
+    "54% work in a different field today than their first job (432 of 796 grads with a job at both points)",
+    "1 in 8 live outside Canada today (140 of 1,091 grads with a known location, 43 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-political-studies",
+   "level": "undergrad",
+   "program": "Political Studies",
+   "title": "Political Studies (undergrad) at Queen’s",
+   "ogTitle": "Political Studies (undergrad) at Queen’s: where 906 grads went",
+   "description": "18% of Political Studies grads started in operations & management. 59% work in a different field today than their first job. 1 in 15 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Political Studies (undergrad) at Queen’s. 906 grads. 18% of Political Studies grads started in operations & management. 59% work in a different field today than their first job. 1 in 15 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Political+Studies",
+   "image": "/share/undergrad-political-studies.jpg",
+   "stats": [
+    "18% started in operations & management (159 of 906 grads, first job after graduating)",
+    "59% work in a different field today than their first job (368 of 626 grads with a job at both points)",
+    "1 in 15 live outside Canada today (59 of 904 grads with a known location, 29 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-psychology",
+   "level": "undergrad",
+   "program": "Psychology",
+   "title": "Psychology (undergrad) at Queen’s",
+   "ogTitle": "Psychology (undergrad) at Queen’s: where 905 grads went",
+   "description": "17% of Psychology grads went straight on to more school. 52% work in a different field today than their first job. 1 in 13 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Psychology (undergrad) at Queen’s. 905 grads. 17% of Psychology grads went straight on to more school. 52% work in a different field today than their first job. 1 in 13 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Psychology",
+   "image": "/share/undergrad-psychology.jpg",
+   "stats": [
+    "17% went straight on to more school (156 of 905 grads, first job after graduating)",
+    "52% work in a different field today than their first job (307 of 589 grads with a job at both points)",
+    "1 in 13 live outside Canada today (69 of 905 grads with a known location, 32 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-civil-engineering",
+   "level": "undergrad",
+   "program": "Civil Engineering",
+   "title": "Civil Engineering (undergrad) at Queen’s",
+   "ogTitle": "Civil Engineering (undergrad) at Queen’s: where 903 grads went",
+   "description": "53% of Civil Engineering grads started in engineering. 46% work in a different field today than their first job. 1 in 13 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Civil Engineering (undergrad) at Queen’s. 903 grads. 53% of Civil Engineering grads started in engineering. 46% work in a different field today than their first job. 1 in 13 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Civil+Engineering",
+   "image": "/share/undergrad-civil-engineering.jpg",
+   "stats": [
+    "53% started in engineering (483 of 903 grads, first job after graduating)",
+    "46% work in a different field today than their first job (317 of 694 grads with a job at both points)",
+    "1 in 13 live outside Canada today (68 of 902 grads with a known location, 33 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-life-sciences",
+   "level": "undergrad",
+   "program": "Life Sciences",
+   "title": "Life Sciences at Queen’s",
+   "ogTitle": "Life Sciences at Queen’s: where 775 grads went",
+   "description": "26% of Life Sciences grads went straight on to more school. 56% work in a different field today than their first job. 1 in 17 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Life Sciences at Queen’s. 775 grads. 26% of Life Sciences grads went straight on to more school. 56% work in a different field today than their first job. 1 in 17 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Life+Sciences",
+   "image": "/share/undergrad-life-sciences.jpg",
+   "stats": [
+    "26% went straight on to more school (198 of 775 grads, first job after graduating)",
+    "56% work in a different field today than their first job (225 of 401 grads with a job at both points)",
+    "1 in 17 live outside Canada today (46 of 775 grads with a known location, 26 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-biology",
+   "level": "undergrad",
+   "program": "Biology",
+   "title": "Biology (undergrad) at Queen’s",
+   "ogTitle": "Biology (undergrad) at Queen’s: where 722 grads went",
+   "description": "22% of Biology grads went straight on to more school. 57% work in a different field today than their first job. 1 in 12 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Biology (undergrad) at Queen’s. 722 grads. 22% of Biology grads went straight on to more school. 57% work in a different field today than their first job. 1 in 12 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Biology",
+   "image": "/share/undergrad-biology.jpg",
+   "stats": [
+    "22% went straight on to more school (161 of 722 grads, first job after graduating)",
+    "57% work in a different field today than their first job (242 of 421 grads with a job at both points)",
+    "1 in 12 live outside Canada today (58 of 722 grads with a known location, 35 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-history",
+   "level": "undergrad",
+   "program": "History",
+   "title": "History (undergrad) at Queen’s",
+   "ogTitle": "History (undergrad) at Queen’s: where 611 grads went",
+   "description": "23% of History grads went straight on to more school. 59% work in a different field today than their first job. 1 in 14 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "History (undergrad) at Queen’s. 611 grads. 23% of History grads went straight on to more school. 59% work in a different field today than their first job. 1 in 14 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=History",
+   "image": "/share/undergrad-history.jpg",
+   "stats": [
+    "23% went straight on to more school (139 of 611 grads, first job after graduating)",
+    "59% work in a different field today than their first job (214 of 365 grads with a job at both points)",
+    "1 in 14 live outside Canada today (44 of 611 grads with a known location, 18 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-computer-science",
+   "level": "undergrad",
+   "program": "Computer Science",
+   "title": "Computer Science (undergrad) at Queen’s",
+   "ogTitle": "Computer Science (undergrad) at Queen’s: where 604 grads went",
+   "description": "58% of Computer Science grads started in tech. 35% work in a different field today than their first job. 1 in 9 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Computer Science (undergrad) at Queen’s. 604 grads. 58% of Computer Science grads started in tech. 35% work in a different field today than their first job. 1 in 9 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Computer+Science",
+   "image": "/share/undergrad-computer-science.jpg",
+   "stats": [
+    "58% started in tech (351 of 604 grads, first job after graduating)",
+    "35% work in a different field today than their first job (154 of 442 grads with a job at both points)",
+    "1 in 9 live outside Canada today (71 of 604 grads with a known location, 38 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-chemical-engineering",
+   "level": "undergrad",
+   "program": "Chemical Engineering",
+   "title": "Chemical Engineering (undergrad) at Queen’s",
+   "ogTitle": "Chemical Engineering (undergrad) at Queen’s: where 598 grads went",
+   "description": "43% of Chemical Engineering grads started in engineering. 56% work in a different field today than their first job. 1 in 10 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Chemical Engineering (undergrad) at Queen’s. 598 grads. 43% of Chemical Engineering grads started in engineering. 56% work in a different field today than their first job. 1 in 10 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Chemical+Engineering",
+   "image": "/share/undergrad-chemical-engineering.jpg",
+   "stats": [
+    "43% started in engineering (257 of 598 grads, first job after graduating)",
+    "56% work in a different field today than their first job (266 of 472 grads with a job at both points)",
+    "1 in 10 live outside Canada today (57 of 598 grads with a known location, 29 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-english",
+   "level": "undergrad",
+   "program": "English",
+   "title": "English (undergrad) at Queen’s",
+   "ogTitle": "English (undergrad) at Queen’s: where 598 grads went",
+   "description": "18% of English grads went straight on to more school. 60% work in a different field today than their first job. 1 in 10 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "English (undergrad) at Queen’s. 598 grads. 18% of English grads went straight on to more school. 60% work in a different field today than their first job. 1 in 10 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=English",
+   "image": "/share/undergrad-english.jpg",
+   "stats": [
+    "18% went straight on to more school (108 of 598 grads, first job after graduating)",
+    "60% work in a different field today than their first job (234 of 387 grads with a job at both points)",
+    "1 in 10 live outside Canada today (58 of 595 grads with a known location, 12 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-management-analytics",
+   "level": "graduate",
+   "program": "Management Analytics",
+   "title": "Management Analytics at Queen’s",
+   "ogTitle": "Management Analytics at Queen’s: where 576 grads went",
+   "description": "45% of master’s & PhD grads in Management Analytics started in tech. 37% work in a different field today than their first job. 1 in 17 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Management Analytics at Queen’s. 576 grads. 45% of master’s & PhD grads in Management Analytics started in tech. 37% work in a different field today than their first job. 1 in 17 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Management+Analytics",
+   "image": "/share/graduate-management-analytics.jpg",
+   "stats": [
+    "45% started in tech (258 of 576 grads, first job after graduating)",
+    "37% work in a different field today than their first job (189 of 513 grads with a job at both points)",
+    "1 in 17 live outside Canada today (34 of 576 grads with a known location, 14 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-sociology",
+   "level": "undergrad",
+   "program": "Sociology",
+   "title": "Sociology (undergrad) at Queen’s",
+   "ogTitle": "Sociology (undergrad) at Queen’s: where 572 grads went",
+   "description": "18% of Sociology grads went straight on to more school. 60% work in a different field today than their first job. 1 in 14 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Sociology (undergrad) at Queen’s. 572 grads. 18% of Sociology grads went straight on to more school. 60% work in a different field today than their first job. 1 in 14 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Sociology",
+   "image": "/share/undergrad-sociology.jpg",
+   "stats": [
+    "18% went straight on to more school (103 of 572 grads, first job after graduating)",
+    "60% work in a different field today than their first job (224 of 375 grads with a job at both points)",
+    "1 in 14 live outside Canada today (41 of 572 grads with a known location, 20 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-electrical-engineering",
+   "level": "undergrad",
+   "program": "Electrical Engineering",
+   "title": "Electrical Engineering (undergrad) at Queen’s",
+   "ogTitle": "Electrical Engineering (undergrad) at Queen’s: where 532 grads went",
+   "description": "43% of Electrical Engineering grads started in engineering. Half work in a different field today than their first job. 1 in 7 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Electrical Engineering (undergrad) at Queen’s. 532 grads. 43% of Electrical Engineering grads started in engineering. Half work in a different field today than their first job. 1 in 7 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Electrical+Engineering",
+   "image": "/share/undergrad-electrical-engineering.jpg",
+   "stats": [
+    "43% started in engineering (228 of 532 grads, first job after graduating)",
+    "Half work in a different field today than their first job (198 of 400 grads with a job at both points)",
+    "1 in 7 live outside Canada today (72 of 532 grads with a known location, 21 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-finance",
+   "level": "graduate",
+   "program": "Finance",
+   "title": "Finance at Queen’s",
+   "ogTitle": "Finance at Queen’s: where 530 grads went",
+   "description": "59% of master’s & PhD grads in Finance started in finance & accounting. 36% work in a different field today than their first job. 1 in 5 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Finance at Queen’s. 530 grads. 59% of master’s & PhD grads in Finance started in finance & accounting. 36% work in a different field today than their first job. 1 in 5 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Finance",
+   "image": "/share/graduate-finance.jpg",
+   "stats": [
+    "59% started in finance & accounting (315 of 530 grads, first job after graduating)",
+    "36% work in a different field today than their first job (158 of 437 grads with a job at both points)",
+    "1 in 5 live outside Canada today (115 of 530 grads with a known location, 11 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-nursing",
+   "level": "undergrad",
+   "program": "Nursing",
+   "title": "Nursing (undergrad) at Queen’s",
+   "ogTitle": "Nursing (undergrad) at Queen’s: where 519 grads went",
+   "description": "79% of Nursing grads started in healthcare. 18% work in a different field today than their first job. 1 in 11 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Nursing (undergrad) at Queen’s. 519 grads. 79% of Nursing grads started in healthcare. 18% work in a different field today than their first job. 1 in 11 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Nursing",
+   "image": "/share/undergrad-nursing.jpg",
+   "stats": [
+    "79% started in healthcare (408 of 519 grads, first job after graduating)",
+    "18% work in a different field today than their first job (77 of 421 grads with a job at both points)",
+    "1 in 11 live outside Canada today (45 of 517 grads with a known location, 32 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-public-administration",
+   "level": "graduate",
+   "program": "Public Administration",
+   "title": "Public Administration at Queen’s",
+   "ogTitle": "Public Administration at Queen’s: where 512 grads went",
+   "description": "42% of master’s & PhD grads in Public Administration started in government & policy. Half work in a different field today than their first job. 1 in 27 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Public Administration at Queen’s. 512 grads. 42% of master’s & PhD grads in Public Administration started in government & policy. Half work in a different field today than their first job. 1 in 27 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Public+Administration",
+   "image": "/share/graduate-public-administration.jpg",
+   "stats": [
+    "42% started in government & policy (216 of 512 grads, first job after graduating)",
+    "Half work in a different field today than their first job (207 of 416 grads with a job at both points)",
+    "1 in 27 live outside Canada today (19 of 512 grads with a known location, 6 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-computer-engineering",
+   "level": "undergrad",
+   "program": "Computer Engineering",
+   "title": "Computer Engineering (undergrad) at Queen’s",
+   "ogTitle": "Computer Engineering (undergrad) at Queen’s: where 507 grads went",
+   "description": "54% of Computer Engineering grads started in tech. 29% work in a different field today than their first job. 1 in 9 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Computer Engineering (undergrad) at Queen’s. 507 grads. 54% of Computer Engineering grads started in tech. 29% work in a different field today than their first job. 1 in 9 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Computer+Engineering",
+   "image": "/share/undergrad-computer-engineering.jpg",
+   "stats": [
+    "54% started in tech (273 of 507 grads, first job after graduating)",
+    "29% work in a different field today than their first job (113 of 384 grads with a job at both points)",
+    "1 in 9 live outside Canada today (59 of 507 grads with a known location, 34 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-kinesiology",
+   "level": "undergrad",
+   "program": "Kinesiology",
+   "title": "Kinesiology (undergrad) at Queen’s",
+   "ogTitle": "Kinesiology (undergrad) at Queen’s: where 489 grads went",
+   "description": "22% of Kinesiology grads started in service, trades & sport. 56% work in a different field today than their first job. 1 in 14 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Kinesiology (undergrad) at Queen’s. 489 grads. 22% of Kinesiology grads started in service, trades & sport. 56% work in a different field today than their first job. 1 in 14 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Kinesiology",
+   "image": "/share/undergrad-kinesiology.jpg",
+   "stats": [
+    "22% started in service, trades & sport (108 of 489 grads, first job after graduating)",
+    "56% work in a different field today than their first job (178 of 318 grads with a job at both points)",
+    "1 in 14 live outside Canada today (35 of 489 grads with a known location, 10 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-film-and-media",
+   "level": "undergrad",
+   "program": "Film and Media",
+   "title": "Film and Media at Queen’s",
+   "ogTitle": "Film and Media at Queen’s: where 463 grads went",
+   "description": "34% of Film and Media grads started in arts & media. 62% work in a different field today than their first job. 1 in 10 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Film and Media at Queen’s. 463 grads. 34% of Film and Media grads started in arts & media. 62% work in a different field today than their first job. 1 in 10 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Film+and+Media",
+   "image": "/share/undergrad-film-and-media.jpg",
+   "stats": [
+    "34% started in arts & media (159 of 463 grads, first job after graduating)",
+    "62% work in a different field today than their first job (208 of 336 grads with a job at both points)",
+    "1 in 10 live outside Canada today (48 of 463 grads with a known location, 18 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-education",
+   "level": "graduate",
+   "program": "Education",
+   "title": "Education (master’s & PhD) at Queen’s",
+   "ogTitle": "Education (master’s & PhD) at Queen’s: where 461 grads went",
+   "description": "49% of master’s & PhD grads in Education started in teaching. 36% work in a different field today than their first job. 1 in 9 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Education (master’s & PhD) at Queen’s. 461 grads. 49% of master’s & PhD grads in Education started in teaching. 36% work in a different field today than their first job. 1 in 9 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Education",
+   "image": "/share/graduate-education.jpg",
+   "stats": [
+    "49% started in teaching (224 of 461 grads, first job after graduating)",
+    "36% work in a different field today than their first job (149 of 410 grads with a job at both points)",
+    "1 in 9 live outside Canada today (54 of 461 grads with a known location, 8 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-economics",
+   "level": "graduate",
+   "program": "Economics",
+   "title": "Economics (master’s & PhD) at Queen’s",
+   "ogTitle": "Economics (master’s & PhD) at Queen’s: where 404 grads went",
+   "description": "31% of master’s & PhD grads in Economics started in research & academia. 55% work in a different field today than their first job. 1 in 6 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Economics (master’s & PhD) at Queen’s. 404 grads. 31% of master’s & PhD grads in Economics started in research & academia. 55% work in a different field today than their first job. 1 in 6 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Economics",
+   "image": "/share/graduate-economics.jpg",
+   "stats": [
+    "31% started in research & academia (124 of 404 grads, first job after graduating)",
+    "55% work in a different field today than their first job (173 of 315 grads with a job at both points)",
+    "1 in 6 live outside Canada today (71 of 402 grads with a known location, 29 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-occupational-therapy",
+   "level": "graduate",
+   "program": "Occupational Therapy",
+   "title": "Occupational Therapy (master’s & PhD) at Queen’s",
+   "ogTitle": "Occupational Therapy (master’s & PhD) at Queen’s: where 401 grads went",
+   "description": "74% of master’s & PhD grads in Occupational Therapy started in healthcare. A quarter work in a different field today than their first job. 1 in 33 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Occupational Therapy (master’s & PhD) at Queen’s. 401 grads. 74% of master’s & PhD grads in Occupational Therapy started in healthcare. A quarter work in a different field today than their first job. 1 in 33 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Occupational+Therapy",
+   "image": "/share/graduate-occupational-therapy.jpg",
+   "stats": [
+    "74% started in healthcare (298 of 401 grads, first job after graduating)",
+    "A quarter work in a different field today than their first job (87 of 342 grads with a job at both points)",
+    "1 in 33 live outside Canada today (12 of 401 grads with a known location, 10 in the US)"
+   ]
+  },
+  {
+   "slug": "medicine",
+   "level": "medicine",
+   "program": "Medicine",
+   "title": "Medicine (MD) at Queen’s",
+   "ogTitle": "Medicine (MD) at Queen’s: where 388 grads went",
+   "description": "60% of Medicine (MD) grads started in healthcare. 20% work in a different field today than their first job. 1 in 16 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Medicine (MD) at Queen’s. 388 grads. 60% of Medicine (MD) grads started in healthcare. 20% work in a different field today than their first job. 1 in 16 live outside Canada today.",
+   "href": "/twin?level=medicine&program=Medicine",
+   "image": "/share/medicine.jpg",
+   "stats": [
+    "60% started in healthcare (233 of 388 grads, first job after graduating)",
+    "20% work in a different field today than their first job (49 of 250 grads with a job at both points)",
+    "1 in 16 live outside Canada today (24 of 387 grads with a known location, 12 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-physical-therapy",
+   "level": "graduate",
+   "program": "Physical Therapy",
+   "title": "Physical Therapy (master’s & PhD) at Queen’s",
+   "ogTitle": "Physical Therapy (master’s & PhD) at Queen’s: where 376 grads went",
+   "description": "79% of master’s & PhD grads in Physical Therapy started in healthcare. 19% work in a different field today than their first job. 1 in 34 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Physical Therapy (master’s & PhD) at Queen’s. 376 grads. 79% of master’s & PhD grads in Physical Therapy started in healthcare. 19% work in a different field today than their first job. 1 in 34 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Physical+Therapy",
+   "image": "/share/graduate-physical-therapy.jpg",
+   "stats": [
+    "79% started in healthcare (297 of 376 grads, first job after graduating)",
+    "19% work in a different field today than their first job (60 of 320 grads with a job at both points)",
+    "1 in 34 live outside Canada today (11 of 376 grads with a known location, 6 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-industrial-relations",
+   "level": "graduate",
+   "program": "Industrial Relations",
+   "title": "Industrial Relations at Queen’s",
+   "ogTitle": "Industrial Relations at Queen’s: where 369 grads went",
+   "description": "67% of master’s & PhD grads in Industrial Relations started in operations & management. 30% work in a different field today than their first job. 1 in 28 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Industrial Relations at Queen’s. 369 grads. 67% of master’s & PhD grads in Industrial Relations started in operations & management. 30% work in a different field today than their first job. 1 in 28 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Industrial+Relations",
+   "image": "/share/graduate-industrial-relations.jpg",
+   "stats": [
+    "67% started in operations & management (249 of 369 grads, first job after graduating)",
+    "30% work in a different field today than their first job (94 of 314 grads with a job at both points)",
+    "1 in 28 live outside Canada today (13 of 369 grads with a known location, 5 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-engineering-unspecified",
+   "level": "undergrad",
+   "program": "Engineering (unspecified)",
+   "title": "Engineering (unspecified) (undergrad) at Queen’s",
+   "ogTitle": "Engineering (unspecified) (undergrad) at Queen’s: where 368 grads went",
+   "description": "32% of Engineering (unspecified) grads started in engineering. 44% work in a different field today than their first job. 1 in 9 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Engineering (unspecified) (undergrad) at Queen’s. 368 grads. 32% of Engineering (unspecified) grads started in engineering. 44% work in a different field today than their first job. 1 in 9 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Engineering+%28unspecified%29",
+   "image": "/share/undergrad-engineering-unspecified.jpg",
+   "stats": [
+    "32% started in engineering (119 of 368 grads, first job after graduating)",
+    "44% work in a different field today than their first job (111 of 250 grads with a job at both points)",
+    "1 in 9 live outside Canada today (42 of 367 grads with a known location, 18 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-mechanical-engineering",
+   "level": "graduate",
+   "program": "Mechanical Engineering",
+   "title": "Mechanical Engineering (master’s & PhD) at Queen’s",
+   "ogTitle": "Mechanical Engineering (master’s & PhD) at Queen’s: where 362 grads went",
+   "description": "41% of master’s & PhD grads in Mechanical Engineering started in engineering. 44% work in a different field today than their first job. 1 in 5 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Mechanical Engineering (master’s & PhD) at Queen’s. 362 grads. 41% of master’s & PhD grads in Mechanical Engineering started in engineering. 44% work in a different field today than their first job. 1 in 5 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Mechanical+Engineering",
+   "image": "/share/graduate-mechanical-engineering.jpg",
+   "stats": [
+    "41% started in engineering (150 of 362 grads, first job after graduating)",
+    "44% work in a different field today than their first job (132 of 301 grads with a job at both points)",
+    "1 in 5 live outside Canada today (67 of 362 grads with a known location, 27 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-global-development-studies",
+   "level": "undergrad",
+   "program": "Global Development Studies",
+   "title": "Global Development Studies (undergrad) at Queen’s",
+   "ogTitle": "Global Development Studies (undergrad) at Queen’s: where 352 grads went",
+   "description": "16% of Global Development Studies grads started in operations & management. 65% work in a different field today than their first job. 1 in 9 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Global Development Studies (undergrad) at Queen’s. 352 grads. 16% of Global Development Studies grads started in operations & management. 65% work in a different field today than their first job. 1 in 9 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Global+Development+Studies",
+   "image": "/share/undergrad-global-development-studies.jpg",
+   "stats": [
+    "16% started in operations & management (58 of 352 grads, first job after graduating)",
+    "65% work in a different field today than their first job (160 of 248 grads with a job at both points)",
+    "1 in 9 live outside Canada today (40 of 352 grads with a known location, 10 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-mining-engineering",
+   "level": "undergrad",
+   "program": "Mining Engineering",
+   "title": "Mining Engineering (undergrad) at Queen’s",
+   "ogTitle": "Mining Engineering (undergrad) at Queen’s: where 346 grads went",
+   "description": "63% of Mining Engineering grads started in engineering. Half work in a different field today than their first job. 1 in 8 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Mining Engineering (undergrad) at Queen’s. 346 grads. 63% of Mining Engineering grads started in engineering. Half work in a different field today than their first job. 1 in 8 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Mining+Engineering",
+   "image": "/share/undergrad-mining-engineering.jpg",
+   "stats": [
+    "63% started in engineering (219 of 346 grads, first job after graduating)",
+    "Half work in a different field today than their first job (145 of 287 grads with a job at both points)",
+    "1 in 8 live outside Canada today (44 of 346 grads with a known location, 17 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-engineering-physics",
+   "level": "undergrad",
+   "program": "Engineering Physics",
+   "title": "Engineering Physics (undergrad) at Queen’s",
+   "ogTitle": "Engineering Physics (undergrad) at Queen’s: where 343 grads went",
+   "description": "27% of Engineering Physics grads started in engineering. 54% work in a different field today than their first job. 1 in 15 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Engineering Physics (undergrad) at Queen’s. 343 grads. 27% of Engineering Physics grads started in engineering. 54% work in a different field today than their first job. 1 in 15 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Engineering+Physics",
+   "image": "/share/undergrad-engineering-physics.jpg",
+   "stats": [
+    "27% started in engineering (93 of 343 grads, first job after graduating)",
+    "54% work in a different field today than their first job (130 of 242 grads with a job at both points)",
+    "1 in 15 live outside Canada today (23 of 343 grads with a known location, 15 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-geography",
+   "level": "undergrad",
+   "program": "Geography",
+   "title": "Geography (undergrad) at Queen’s",
+   "ogTitle": "Geography (undergrad) at Queen’s: where 342 grads went",
+   "description": "22% of Geography grads went straight on to more school. 62% work in a different field today than their first job. 1 in 14 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Geography (undergrad) at Queen’s. 342 grads. 22% of Geography grads went straight on to more school. 62% work in a different field today than their first job. 1 in 14 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Geography",
+   "image": "/share/undergrad-geography.jpg",
+   "stats": [
+    "22% went straight on to more school (74 of 342 grads, first job after graduating)",
+    "62% work in a different field today than their first job (132 of 214 grads with a job at both points)",
+    "1 in 14 live outside Canada today (24 of 342 grads with a known location, 8 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-international-business",
+   "level": "graduate",
+   "program": "International Business",
+   "title": "International Business at Queen’s",
+   "ogTitle": "International Business at Queen’s: where 332 grads went",
+   "description": "24% of master’s & PhD grads in International Business started in sales & marketing. 55% work in a different field today than their first job. 1 in 3 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "International Business at Queen’s. 332 grads. 24% of master’s & PhD grads in International Business started in sales & marketing. 55% work in a different field today than their first job. 1 in 3 live outside Canada today.",
+   "href": "/twin?level=graduate&program=International+Business",
+   "image": "/share/graduate-international-business.jpg",
+   "stats": [
+    "24% started in sales & marketing (79 of 332 grads, first job after graduating)",
+    "55% work in a different field today than their first job (147 of 268 grads with a job at both points)",
+    "1 in 3 live outside Canada today (110 of 331 grads with a known location, 10 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-geological-engineering",
+   "level": "undergrad",
+   "program": "Geological Engineering",
+   "title": "Geological Engineering (undergrad) at Queen’s",
+   "ogTitle": "Geological Engineering (undergrad) at Queen’s: where 302 grads went",
+   "description": "51% of Geological Engineering grads started in engineering. 47% work in a different field today than their first job. 1 in 10 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Geological Engineering (undergrad) at Queen’s. 302 grads. 51% of Geological Engineering grads started in engineering. 47% work in a different field today than their first job. 1 in 10 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Geological+Engineering",
+   "image": "/share/undergrad-geological-engineering.jpg",
+   "stats": [
+    "51% started in engineering (154 of 302 grads, first job after graduating)",
+    "47% work in a different field today than their first job (101 of 216 grads with a job at both points)",
+    "1 in 10 live outside Canada today (31 of 302 grads with a known location, 15 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-computer-science",
+   "level": "graduate",
+   "program": "Computer Science",
+   "title": "Computer Science (master’s & PhD) at Queen’s",
+   "ogTitle": "Computer Science (master’s & PhD) at Queen’s: where 271 grads went",
+   "description": "49% of master’s & PhD grads in Computer Science started in tech. 34% work in a different field today than their first job. 1 in 5 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Computer Science (master’s & PhD) at Queen’s. 271 grads. 49% of master’s & PhD grads in Computer Science started in tech. 34% work in a different field today than their first job. 1 in 5 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Computer+Science",
+   "image": "/share/graduate-computer-science.jpg",
+   "stats": [
+    "49% started in tech (133 of 271 grads, first job after graduating)",
+    "34% work in a different field today than their first job (72 of 209 grads with a job at both points)",
+    "1 in 5 live outside Canada today (60 of 271 grads with a known location, 25 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-drama",
+   "level": "undergrad",
+   "program": "Drama",
+   "title": "Drama at Queen’s",
+   "ogTitle": "Drama at Queen’s: where 251 grads went",
+   "description": "21% of Drama grads started in arts & media. 57% work in a different field today than their first job. 1 in 11 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Drama at Queen’s. 251 grads. 21% of Drama grads started in arts & media. 57% work in a different field today than their first job. 1 in 11 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Drama",
+   "image": "/share/undergrad-drama.jpg",
+   "stats": [
+    "21% started in arts & media (52 of 251 grads, first job after graduating)",
+    "57% work in a different field today than their first job (100 of 174 grads with a job at both points)",
+    "1 in 11 live outside Canada today (22 of 251 grads with a known location, 12 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-urban-planning",
+   "level": "graduate",
+   "program": "Urban Planning",
+   "title": "Urban Planning at Queen’s",
+   "ogTitle": "Urban Planning at Queen’s: where 243 grads went",
+   "description": "34% of master’s & PhD grads in Urban Planning started in government & policy. 61% work in a different field today than their first job. 1 in 22 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Urban Planning at Queen’s. 243 grads. 34% of master’s & PhD grads in Urban Planning started in government & policy. 61% work in a different field today than their first job. 1 in 22 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Urban+Planning",
+   "image": "/share/graduate-urban-planning.jpg",
+   "stats": [
+    "34% started in government & policy (83 of 243 grads, first job after graduating)",
+    "61% work in a different field today than their first job (128 of 210 grads with a job at both points)",
+    "1 in 22 live outside Canada today (11 of 243 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "graduate-civil-engineering",
+   "level": "graduate",
+   "program": "Civil Engineering",
+   "title": "Civil Engineering (master’s & PhD) at Queen’s",
+   "ogTitle": "Civil Engineering (master’s & PhD) at Queen’s: where 232 grads went",
+   "description": "51% of master’s & PhD grads in Civil Engineering started in engineering. 38% work in a different field today than their first job. 1 in 8 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Civil Engineering (master’s & PhD) at Queen’s. 232 grads. 51% of master’s & PhD grads in Civil Engineering started in engineering. 38% work in a different field today than their first job. 1 in 8 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Civil+Engineering",
+   "image": "/share/graduate-civil-engineering.jpg",
+   "stats": [
+    "51% started in engineering (119 of 232 grads, first job after graduating)",
+    "38% work in a different field today than their first job (76 of 200 grads with a job at both points)",
+    "1 in 8 live outside Canada today (28 of 232 grads with a known location, 14 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-mathematics",
+   "level": "undergrad",
+   "program": "Mathematics",
+   "title": "Mathematics (undergrad) at Queen’s",
+   "ogTitle": "Mathematics (undergrad) at Queen’s: where 225 grads went",
+   "description": "18% of Mathematics grads started in finance & accounting. 49% work in a different field today than their first job. 1 in 9 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Mathematics (undergrad) at Queen’s. 225 grads. 18% of Mathematics grads started in finance & accounting. 49% work in a different field today than their first job. 1 in 9 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Mathematics",
+   "image": "/share/undergrad-mathematics.jpg",
+   "stats": [
+    "18% started in finance & accounting (41 of 225 grads, first job after graduating)",
+    "49% work in a different field today than their first job (75 of 154 grads with a job at both points)",
+    "1 in 9 live outside Canada today (24 of 222 grads with a known location, 11 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-health-studies",
+   "level": "undergrad",
+   "program": "Health Studies",
+   "title": "Health Studies (undergrad) at Queen’s",
+   "ogTitle": "Health Studies (undergrad) at Queen’s: where 222 grads went",
+   "description": "19% of Health Studies grads started in service, trades & sport. 65% work in a different field today than their first job. 1 in 22 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Health Studies (undergrad) at Queen’s. 222 grads. 19% of Health Studies grads started in service, trades & sport. 65% work in a different field today than their first job. 1 in 22 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Health+Studies",
+   "image": "/share/undergrad-health-studies.jpg",
+   "stats": [
+    "19% started in service, trades & sport (43 of 222 grads, first job after graduating)",
+    "65% work in a different field today than their first job (99 of 152 grads with a job at both points)",
+    "1 in 22 live outside Canada today (10 of 222 grads with a known location, 6 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-chemistry",
+   "level": "undergrad",
+   "program": "Chemistry",
+   "title": "Chemistry (undergrad) at Queen’s",
+   "ogTitle": "Chemistry (undergrad) at Queen’s: where 217 grads went",
+   "description": "26% of Chemistry grads went straight on to more school. 54% work in a different field today than their first job. 1 in 9 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Chemistry (undergrad) at Queen’s. 217 grads. 26% of Chemistry grads went straight on to more school. 54% work in a different field today than their first job. 1 in 9 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Chemistry",
+   "image": "/share/undergrad-chemistry.jpg",
+   "stats": [
+    "26% went straight on to more school (56 of 217 grads, first job after graduating)",
+    "54% work in a different field today than their first job (67 of 124 grads with a job at both points)",
+    "1 in 9 live outside Canada today (25 of 217 grads with a known location, 16 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-chemistry",
+   "level": "graduate",
+   "program": "Chemistry",
+   "title": "Chemistry (master’s & PhD) at Queen’s",
+   "ogTitle": "Chemistry (master’s & PhD) at Queen’s: where 214 grads went",
+   "description": "62% of master’s & PhD grads in Chemistry started in research & academia. 42% work in a different field today than their first job. 28% live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Chemistry (master’s & PhD) at Queen’s. 214 grads. 62% of master’s & PhD grads in Chemistry started in research & academia. 42% work in a different field today than their first job. 28% live outside Canada today.",
+   "href": "/twin?level=graduate&program=Chemistry",
+   "image": "/share/graduate-chemistry.jpg",
+   "stats": [
+    "62% started in research & academia (132 of 214 grads, first job after graduating)",
+    "42% work in a different field today than their first job (69 of 163 grads with a job at both points)",
+    "28% live outside Canada today (60 of 214 grads with a known location, 34 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-chemical-engineering",
+   "level": "graduate",
+   "program": "Chemical Engineering",
+   "title": "Chemical Engineering (master’s & PhD) at Queen’s",
+   "ogTitle": "Chemical Engineering (master’s & PhD) at Queen’s: where 199 grads went",
+   "description": "29% of master’s & PhD grads in Chemical Engineering started in engineering. 55% work in a different field today than their first job. 1 in 7 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Chemical Engineering (master’s & PhD) at Queen’s. 199 grads. 29% of master’s & PhD grads in Chemical Engineering started in engineering. 55% work in a different field today than their first job. 1 in 7 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Chemical+Engineering",
+   "image": "/share/graduate-chemical-engineering.jpg",
+   "stats": [
+    "29% started in engineering (58 of 199 grads, first job after graduating)",
+    "55% work in a different field today than their first job (88 of 160 grads with a job at both points)",
+    "1 in 7 live outside Canada today (29 of 198 grads with a known location, 16 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-engineering-chemistry",
+   "level": "undergrad",
+   "program": "Engineering Chemistry",
+   "title": "Engineering Chemistry at Queen’s",
+   "ogTitle": "Engineering Chemistry at Queen’s: where 188 grads went",
+   "description": "24% of Engineering Chemistry grads started in engineering. 59% work in a different field today than their first job. 1 in 8 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Engineering Chemistry at Queen’s. 188 grads. 24% of Engineering Chemistry grads started in engineering. 59% work in a different field today than their first job. 1 in 8 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Engineering+Chemistry",
+   "image": "/share/undergrad-engineering-chemistry.jpg",
+   "stats": [
+    "24% started in engineering (45 of 188 grads, first job after graduating)",
+    "59% work in a different field today than their first job (73 of 124 grads with a job at both points)",
+    "1 in 8 live outside Canada today (23 of 186 grads with a known location, 16 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-philosophy",
+   "level": "undergrad",
+   "program": "Philosophy",
+   "title": "Philosophy (undergrad) at Queen’s",
+   "ogTitle": "Philosophy (undergrad) at Queen’s: where 186 grads went",
+   "description": "16% of Philosophy grads started in operations & management. Half work in a different field today than their first job. 1 in 11 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Philosophy (undergrad) at Queen’s. 186 grads. 16% of Philosophy grads started in operations & management. Half work in a different field today than their first job. 1 in 11 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Philosophy",
+   "image": "/share/undergrad-philosophy.jpg",
+   "stats": [
+    "16% started in operations & management (29 of 186 grads, first job after graduating)",
+    "Half work in a different field today than their first job (58 of 115 grads with a job at both points)",
+    "1 in 11 live outside Canada today (17 of 186 grads with a known location, 6 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-music",
+   "level": "undergrad",
+   "program": "Music",
+   "title": "Music at Queen’s",
+   "ogTitle": "Music at Queen’s: where 185 grads went",
+   "description": "20% of Music grads started in teaching. 65% work in a different field today than their first job. 1 in 12 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Music at Queen’s. 185 grads. 20% of Music grads started in teaching. 65% work in a different field today than their first job. 1 in 12 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Music",
+   "image": "/share/undergrad-music.jpg",
+   "stats": [
+    "20% started in teaching (37 of 185 grads, first job after graduating)",
+    "65% work in a different field today than their first job (76 of 117 grads with a job at both points)",
+    "1 in 12 live outside Canada today (16 of 185 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "undergrad-mathematics-and-engineering",
+   "level": "undergrad",
+   "program": "Mathematics and Engineering",
+   "title": "Mathematics and Engineering at Queen’s",
+   "ogTitle": "Mathematics and Engineering at Queen’s: where 183 grads went",
+   "description": "25% of Mathematics and Engineering grads started in engineering. 46% work in a different field today than their first job. 1 in 10 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Mathematics and Engineering at Queen’s. 183 grads. 25% of Mathematics and Engineering grads started in engineering. 46% work in a different field today than their first job. 1 in 10 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Mathematics+and+Engineering",
+   "image": "/share/undergrad-mathematics-and-engineering.jpg",
+   "stats": [
+    "25% started in engineering (46 of 183 grads, first job after graduating)",
+    "46% work in a different field today than their first job (65 of 140 grads with a job at both points)",
+    "1 in 10 live outside Canada today (18 of 183 grads with a known location, 9 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-biochemistry",
+   "level": "undergrad",
+   "program": "Biochemistry",
+   "title": "Biochemistry (undergrad) at Queen’s",
+   "ogTitle": "Biochemistry (undergrad) at Queen’s: where 182 grads went",
+   "description": "30% of Biochemistry grads went straight on to more school. 56% work in a different field today than their first job. 1 in 6 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Biochemistry (undergrad) at Queen’s. 182 grads. 30% of Biochemistry grads went straight on to more school. 56% work in a different field today than their first job. 1 in 6 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Biochemistry",
+   "image": "/share/undergrad-biochemistry.jpg",
+   "stats": [
+    "30% went straight on to more school (55 of 182 grads, first job after graduating)",
+    "56% work in a different field today than their first job (45 of 81 grads with a job at both points)",
+    "1 in 6 live outside Canada today (29 of 182 grads with a known location, 16 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-art-history",
+   "level": "undergrad",
+   "program": "Art History",
+   "title": "Art History (undergrad) at Queen’s",
+   "ogTitle": "Art History (undergrad) at Queen’s: where 179 grads went",
+   "description": "24% of Art History grads went straight on to more school. 54% work in a different field today than their first job. 1 in 8 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Art History (undergrad) at Queen’s. 179 grads. 24% of Art History grads went straight on to more school. 54% work in a different field today than their first job. 1 in 8 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Art+History",
+   "image": "/share/undergrad-art-history.jpg",
+   "stats": [
+    "24% went straight on to more school (43 of 179 grads, first job after graduating)",
+    "54% work in a different field today than their first job (58 of 107 grads with a job at both points)",
+    "1 in 8 live outside Canada today (22 of 179 grads with a known location, 12 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-political-studies",
+   "level": "graduate",
+   "program": "Political Studies",
+   "title": "Political Studies (master’s & PhD) at Queen’s",
+   "ogTitle": "Political Studies (master’s & PhD) at Queen’s: where 174 grads went",
+   "description": "23% of master’s & PhD grads in Political Studies started in research & academia. 56% work in a different field today than their first job. 1 in 7 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Political Studies (master’s & PhD) at Queen’s. 174 grads. 23% of master’s & PhD grads in Political Studies started in research & academia. 56% work in a different field today than their first job. 1 in 7 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Political+Studies",
+   "image": "/share/graduate-political-studies.jpg",
+   "stats": [
+    "23% started in research & academia (40 of 174 grads, first job after graduating)",
+    "56% work in a different field today than their first job (70 of 124 grads with a job at both points)",
+    "1 in 7 live outside Canada today (24 of 174 grads with a known location, 5 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-environmental-science",
+   "level": "undergrad",
+   "program": "Environmental Science",
+   "title": "Environmental Science at Queen’s",
+   "ogTitle": "Environmental Science at Queen’s: where 168 grads went",
+   "description": "19% of Environmental Science grads went straight on to more school. 64% work in a different field today than their first job. 1 in 10 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Environmental Science at Queen’s. 168 grads. 19% of Environmental Science grads went straight on to more school. 64% work in a different field today than their first job. 1 in 10 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Environmental+Science",
+   "image": "/share/undergrad-environmental-science.jpg",
+   "stats": [
+    "19% went straight on to more school (32 of 168 grads, first job after graduating)",
+    "64% work in a different field today than their first job (66 of 103 grads with a job at both points)",
+    "1 in 10 live outside Canada today (17 of 168 grads with a known location, 7 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-arts-general",
+   "level": "undergrad",
+   "program": "Arts (general)",
+   "title": "Arts (general) at Queen’s",
+   "ogTitle": "Arts (general) at Queen’s: where 166 grads went",
+   "description": "20% of Arts (general) grads went straight on to more school. Half work in a different field today than their first job. 1 in 9 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Arts (general) at Queen’s. 166 grads. 20% of Arts (general) grads went straight on to more school. Half work in a different field today than their first job. 1 in 9 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Arts+%28general%29",
+   "image": "/share/undergrad-arts-general.jpg",
+   "stats": [
+    "20% went straight on to more school (33 of 166 grads, first job after graduating)",
+    "Half work in a different field today than their first job (48 of 96 grads with a job at both points)",
+    "1 in 9 live outside Canada today (19 of 166 grads with a known location, 5 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-biology",
+   "level": "graduate",
+   "program": "Biology",
+   "title": "Biology (master’s & PhD) at Queen’s",
+   "ogTitle": "Biology (master’s & PhD) at Queen’s: where 163 grads went",
+   "description": "53% of master’s & PhD grads in Biology started in research & academia. 37% work in a different field today than their first job. 1 in 10 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Biology (master’s & PhD) at Queen’s. 163 grads. 53% of master’s & PhD grads in Biology started in research & academia. 37% work in a different field today than their first job. 1 in 10 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Biology",
+   "image": "/share/graduate-biology.jpg",
+   "stats": [
+    "53% started in research & academia (87 of 163 grads, first job after graduating)",
+    "37% work in a different field today than their first job (44 of 120 grads with a job at both points)",
+    "1 in 10 live outside Canada today (17 of 163 grads with a known location, 8 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-electrical-engineering",
+   "level": "graduate",
+   "program": "Electrical Engineering",
+   "title": "Electrical Engineering (master’s & PhD) at Queen’s",
+   "ogTitle": "Electrical Engineering (master’s & PhD) at Queen’s: where 163 grads went",
+   "description": "41% of master’s & PhD grads in Electrical Engineering started in engineering. 37% work in a different field today than their first job. 1 in 5 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Electrical Engineering (master’s & PhD) at Queen’s. 163 grads. 41% of master’s & PhD grads in Electrical Engineering started in engineering. 37% work in a different field today than their first job. 1 in 5 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Electrical+Engineering",
+   "image": "/share/graduate-electrical-engineering.jpg",
+   "stats": [
+    "41% started in engineering (67 of 163 grads, first job after graduating)",
+    "37% work in a different field today than their first job (47 of 126 grads with a job at both points)",
+    "1 in 5 live outside Canada today (36 of 163 grads with a known location, 16 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-history",
+   "level": "graduate",
+   "program": "History",
+   "title": "History (master’s & PhD) at Queen’s",
+   "ogTitle": "History (master’s & PhD) at Queen’s: where 163 grads went",
+   "description": "24% of master’s & PhD grads in History started in research & academia. 63% work in a different field today than their first job. 1 in 11 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "History (master’s & PhD) at Queen’s. 163 grads. 24% of master’s & PhD grads in History started in research & academia. 63% work in a different field today than their first job. 1 in 11 live outside Canada today.",
+   "href": "/twin?level=graduate&program=History",
+   "image": "/share/graduate-history.jpg",
+   "stats": [
+    "24% started in research & academia (39 of 163 grads, first job after graduating)",
+    "63% work in a different field today than their first job (65 of 103 grads with a job at both points)",
+    "1 in 11 live outside Canada today (15 of 163 grads with a known location, 8 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-geological-sciences",
+   "level": "undergrad",
+   "program": "Geological Sciences",
+   "title": "Geological Sciences (undergrad) at Queen’s",
+   "ogTitle": "Geological Sciences (undergrad) at Queen’s: where 160 grads went",
+   "description": "41% of Geological Sciences grads started in research & academia. 63% work in a different field today than their first job. 1 in 6 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Geological Sciences (undergrad) at Queen’s. 160 grads. 41% of Geological Sciences grads started in research & academia. 63% work in a different field today than their first job. 1 in 6 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Geological+Sciences",
+   "image": "/share/undergrad-geological-sciences.jpg",
+   "stats": [
+    "41% started in research & academia (66 of 160 grads, first job after graduating)",
+    "63% work in a different field today than their first job (69 of 110 grads with a job at both points)",
+    "1 in 6 live outside Canada today (27 of 157 grads with a known location, 9 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-psychology",
+   "level": "graduate",
+   "program": "Psychology",
+   "title": "Psychology (master’s & PhD) at Queen’s",
+   "ogTitle": "Psychology (master’s & PhD) at Queen’s: where 158 grads went",
+   "description": "32% of master’s & PhD grads in Psychology went straight on to more school. 36% work in a different field today than their first job. 1 in 7 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Psychology (master’s & PhD) at Queen’s. 158 grads. 32% of master’s & PhD grads in Psychology went straight on to more school. 36% work in a different field today than their first job. 1 in 7 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Psychology",
+   "image": "/share/graduate-psychology.jpg",
+   "stats": [
+    "32% went straight on to more school (50 of 158 grads, first job after graduating)",
+    "36% work in a different field today than their first job (28 of 77 grads with a job at both points)",
+    "1 in 7 live outside Canada today (24 of 158 grads with a known location, 15 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-artificial-intelligence",
+   "level": "graduate",
+   "program": "Artificial Intelligence",
+   "title": "Artificial Intelligence at Queen’s",
+   "ogTitle": "Artificial Intelligence at Queen’s: where 157 grads went",
+   "description": "55% of master’s & PhD grads in Artificial Intelligence started in tech. 38% work in a different field today than their first job. 39% live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Artificial Intelligence at Queen’s. 157 grads. 55% of master’s & PhD grads in Artificial Intelligence started in tech. 38% work in a different field today than their first job. 39% live outside Canada today.",
+   "href": "/twin?level=graduate&program=Artificial+Intelligence",
+   "image": "/share/graduate-artificial-intelligence.jpg",
+   "stats": [
+    "55% started in tech (86 of 157 grads, first job after graduating)",
+    "38% work in a different field today than their first job (49 of 129 grads with a job at both points)",
+    "39% live outside Canada today (62 of 157 grads with a known location, 6 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-english",
+   "level": "graduate",
+   "program": "English",
+   "title": "English (master’s & PhD) at Queen’s",
+   "ogTitle": "English (master’s & PhD) at Queen’s: where 156 grads went",
+   "description": "20% of master’s & PhD grads in English started in research & academia. 46% work in a different field today than their first job. 1 in 17 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "English (master’s & PhD) at Queen’s. 156 grads. 20% of master’s & PhD grads in English started in research & academia. 46% work in a different field today than their first job. 1 in 17 live outside Canada today.",
+   "href": "/twin?level=graduate&program=English",
+   "image": "/share/graduate-english.jpg",
+   "stats": [
+    "20% started in research & academia (31 of 156 grads, first job after graduating)",
+    "46% work in a different field today than their first job (45 of 97 grads with a job at both points)",
+    "1 in 17 live outside Canada today (9 of 155 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "graduate-geological-sciences",
+   "level": "graduate",
+   "program": "Geological Sciences",
+   "title": "Geological Sciences (master’s & PhD) at Queen’s",
+   "ogTitle": "Geological Sciences (master’s & PhD) at Queen’s: where 150 grads went",
+   "description": "57% of master’s & PhD grads in Geological Sciences started in research & academia. 41% work in a different field today than their first job. 1 in 4 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Geological Sciences (master’s & PhD) at Queen’s. 150 grads. 57% of master’s & PhD grads in Geological Sciences started in research & academia. 41% work in a different field today than their first job. 1 in 4 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Geological+Sciences",
+   "image": "/share/graduate-geological-sciences.jpg",
+   "stats": [
+    "57% started in research & academia (85 of 150 grads, first job after graduating)",
+    "41% work in a different field today than their first job (51 of 123 grads with a job at both points)",
+    "1 in 4 live outside Canada today (39 of 150 grads with a known location, 9 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-management-innovation-and-entrepreneurship",
+   "level": "graduate",
+   "program": "Management Innovation and Entrepreneurship",
+   "title": "Management Innovation and Entrepreneurship at Queen’s",
+   "ogTitle": "Management Innovation and Entrepreneurship at Queen’s: where 130 grads went",
+   "description": "23% of master’s & PhD grads in Management Innovation and Entrepreneurship started in sales & marketing. 57% work in a different field today than their first job. 1 in 9 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Management Innovation and Entrepreneurship at Queen’s. 130 grads. 23% of master’s & PhD grads in Management Innovation and Entrepreneurship started in sales & marketing. 57% work in a different field today than their first job. 1 in 9 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Management+Innovation+and+Entrepreneurship",
+   "image": "/share/graduate-management-innovation-and-entrepreneurship.jpg",
+   "stats": [
+    "23% started in sales & marketing (30 of 130 grads, first job after graduating)",
+    "57% work in a different field today than their first job (60 of 105 grads with a job at both points)",
+    "1 in 9 live outside Canada today (15 of 130 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "undergrad-physics",
+   "level": "undergrad",
+   "program": "Physics",
+   "title": "Physics (undergrad) at Queen’s",
+   "ogTitle": "Physics (undergrad) at Queen’s: where 125 grads went",
+   "description": "26% of Physics grads went straight on to more school. 55% work in a different field today than their first job. 1 in 9 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Physics (undergrad) at Queen’s. 125 grads. 26% of Physics grads went straight on to more school. 55% work in a different field today than their first job. 1 in 9 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Physics",
+   "image": "/share/undergrad-physics.jpg",
+   "stats": [
+    "26% went straight on to more school (33 of 125 grads, first job after graduating)",
+    "55% work in a different field today than their first job (36 of 65 grads with a job at both points)",
+    "1 in 9 live outside Canada today (14 of 125 grads with a known location, 5 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-electrical-and-computer-engineering",
+   "level": "graduate",
+   "program": "Electrical and Computer Engineering",
+   "title": "Electrical and Computer Engineering (master’s & PhD) at Queen’s",
+   "ogTitle": "Electrical and Computer Engineering (master’s & PhD) at Queen’s: where 124 grads went",
+   "description": "28% of master’s & PhD grads in Electrical and Computer Engineering started in tech. 46% work in a different field today than their first job. 1 in 5 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Electrical and Computer Engineering (master’s & PhD) at Queen’s. 124 grads. 28% of master’s & PhD grads in Electrical and Computer Engineering started in tech. 46% work in a different field today than their first job. 1 in 5 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Electrical+and+Computer+Engineering",
+   "image": "/share/graduate-electrical-and-computer-engineering.jpg",
+   "stats": [
+    "28% started in tech (35 of 124 grads, first job after graduating)",
+    "46% work in a different field today than their first job (44 of 95 grads with a job at both points)",
+    "1 in 5 live outside Canada today (26 of 124 grads with a known location, 8 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-public-policy",
+   "level": "graduate",
+   "program": "Public Policy",
+   "title": "Public Policy at Queen’s",
+   "ogTitle": "Public Policy at Queen’s: where 124 grads went",
+   "description": "41% of master’s & PhD grads in Public Policy started in government & policy. 59% work in a different field today than their first job. 1 in 25 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Public Policy at Queen’s. 124 grads. 41% of master’s & PhD grads in Public Policy started in government & policy. 59% work in a different field today than their first job. 1 in 25 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Public+Policy",
+   "image": "/share/graduate-public-policy.jpg",
+   "stats": [
+    "41% started in government & policy (51 of 124 grads, first job after graduating)",
+    "59% work in a different field today than their first job (60 of 102 grads with a job at both points)",
+    "1 in 25 live outside Canada today (5 of 123 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "graduate-sociology",
+   "level": "graduate",
+   "program": "Sociology",
+   "title": "Sociology (master’s & PhD) at Queen’s",
+   "ogTitle": "Sociology (master’s & PhD) at Queen’s: where 120 grads went",
+   "description": "29% of master’s & PhD grads in Sociology started in research & academia. 53% work in a different field today than their first job. 1 in 11 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Sociology (master’s & PhD) at Queen’s. 120 grads. 29% of master’s & PhD grads in Sociology started in research & academia. 53% work in a different field today than their first job. 1 in 11 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Sociology",
+   "image": "/share/graduate-sociology.jpg",
+   "stats": [
+    "29% started in research & academia (35 of 120 grads, first job after graduating)",
+    "53% work in a different field today than their first job (41 of 78 grads with a job at both points)",
+    "1 in 11 live outside Canada today (11 of 120 grads with a known location, 5 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-kinesiology",
+   "level": "graduate",
+   "program": "Kinesiology",
+   "title": "Kinesiology (master’s & PhD) at Queen’s",
+   "ogTitle": "Kinesiology (master’s & PhD) at Queen’s: where 119 grads went",
+   "description": "25% of master’s & PhD grads in Kinesiology started in research & academia. 63% work in a different field today than their first job. 1 in 13 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Kinesiology (master’s & PhD) at Queen’s. 119 grads. 25% of master’s & PhD grads in Kinesiology started in research & academia. 63% work in a different field today than their first job. 1 in 13 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Kinesiology",
+   "image": "/share/graduate-kinesiology.jpg",
+   "stats": [
+    "25% started in research & academia (30 of 119 grads, first job after graduating)",
+    "63% work in a different field today than their first job (58 of 92 grads with a job at both points)",
+    "1 in 13 live outside Canada today (9 of 119 grads with a known location, 8 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-mining-engineering",
+   "level": "graduate",
+   "program": "Mining Engineering",
+   "title": "Mining Engineering (master’s & PhD) at Queen’s",
+   "ogTitle": "Mining Engineering (master’s & PhD) at Queen’s: where 115 grads went",
+   "description": "46% of master’s & PhD grads in Mining Engineering started in engineering. Half work in a different field today than their first job. 1 in 4 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Mining Engineering (master’s & PhD) at Queen’s. 115 grads. 46% of master’s & PhD grads in Mining Engineering started in engineering. Half work in a different field today than their first job. 1 in 4 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Mining+Engineering",
+   "image": "/share/graduate-mining-engineering.jpg",
+   "stats": [
+    "46% started in engineering (53 of 115 grads, first job after graduating)",
+    "Half work in a different field today than their first job (46 of 92 grads with a job at both points)",
+    "1 in 4 live outside Canada today (27 of 115 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "graduate-art-conservation",
+   "level": "graduate",
+   "program": "Art Conservation",
+   "title": "Art Conservation at Queen’s",
+   "ogTitle": "Art Conservation at Queen’s: where 112 grads went",
+   "description": "55% of master’s & PhD grads in Art Conservation started in arts & media. 45% work in a different field today than their first job. 1 in 3 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Art Conservation at Queen’s. 112 grads. 55% of master’s & PhD grads in Art Conservation started in arts & media. 45% work in a different field today than their first job. 1 in 3 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Art+Conservation",
+   "image": "/share/graduate-art-conservation.jpg",
+   "stats": [
+    "55% started in arts & media (62 of 112 grads, first job after graduating)",
+    "45% work in a different field today than their first job (40 of 89 grads with a job at both points)",
+    "1 in 3 live outside Canada today (38 of 112 grads with a known location, 33 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-healthcare-quality",
+   "level": "graduate",
+   "program": "Healthcare Quality",
+   "title": "Healthcare Quality at Queen’s",
+   "ogTitle": "Healthcare Quality at Queen’s: where 111 grads went",
+   "description": "55% of master’s & PhD grads in Healthcare Quality started in healthcare. 51% work in a different field today than their first job. 1 in 18 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Healthcare Quality at Queen’s. 111 grads. 55% of master’s & PhD grads in Healthcare Quality started in healthcare. 51% work in a different field today than their first job. 1 in 18 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Healthcare+Quality",
+   "image": "/share/graduate-healthcare-quality.jpg",
+   "stats": [
+    "55% started in healthcare (61 of 111 grads, first job after graduating)",
+    "51% work in a different field today than their first job (53 of 103 grads with a job at both points)",
+    "1 in 18 live outside Canada today (6 of 108 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "graduate-neuroscience",
+   "level": "graduate",
+   "program": "Neuroscience",
+   "title": "Neuroscience at Queen’s",
+   "ogTitle": "Neuroscience at Queen’s: where 111 grads went",
+   "description": "44% of master’s & PhD grads in Neuroscience started in research & academia. Half work in a different field today than their first job. 1 in 9 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Neuroscience at Queen’s. 111 grads. 44% of master’s & PhD grads in Neuroscience started in research & academia. Half work in a different field today than their first job. 1 in 9 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Neuroscience",
+   "image": "/share/graduate-neuroscience.jpg",
+   "stats": [
+    "44% started in research & academia (49 of 111 grads, first job after graduating)",
+    "Half work in a different field today than their first job (38 of 76 grads with a job at both points)",
+    "1 in 9 live outside Canada today (13 of 111 grads with a known location, 9 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-public-health",
+   "level": "graduate",
+   "program": "Public Health",
+   "title": "Public Health at Queen’s",
+   "ogTitle": "Public Health at Queen’s: where 111 grads went",
+   "description": "23% of master’s & PhD grads in Public Health started in healthcare. 62% work in a different field today than their first job. 1 in 16 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Public Health at Queen’s. 111 grads. 23% of master’s & PhD grads in Public Health started in healthcare. 62% work in a different field today than their first job. 1 in 16 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Public+Health",
+   "image": "/share/graduate-public-health.jpg",
+   "stats": [
+    "23% started in healthcare (26 of 111 grads, first job after graduating)",
+    "62% work in a different field today than their first job (56 of 91 grads with a job at both points)",
+    "1 in 16 live outside Canada today (7 of 111 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "graduate-geography",
+   "level": "graduate",
+   "program": "Geography",
+   "title": "Geography (master’s & PhD) at Queen’s",
+   "ogTitle": "Geography (master’s & PhD) at Queen’s: where 107 grads went",
+   "description": "36% of master’s & PhD grads in Geography started in research & academia. 54% work in a different field today than their first job. 1 in 6 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Geography (master’s & PhD) at Queen’s. 107 grads. 36% of master’s & PhD grads in Geography started in research & academia. 54% work in a different field today than their first job. 1 in 6 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Geography",
+   "image": "/share/graduate-geography.jpg",
+   "stats": [
+    "36% started in research & academia (39 of 107 grads, first job after graduating)",
+    "54% work in a different field today than their first job (46 of 85 grads with a job at both points)",
+    "1 in 6 live outside Canada today (18 of 107 grads with a known location, 7 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-health-sciences",
+   "level": "undergrad",
+   "program": "Health Sciences",
+   "title": "Health Sciences at Queen’s",
+   "ogTitle": "Health Sciences at Queen’s: where 105 grads went",
+   "description": "23% of Health Sciences grads started in operations & management. 41% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Health Sciences at Queen’s. 105 grads. 23% of Health Sciences grads started in operations & management. 41% work in a different field today than their first job.",
+   "href": "/twin?level=undergrad&program=Health+Sciences",
+   "image": "/share/undergrad-health-sciences.jpg",
+   "stats": [
+    "23% started in operations & management (24 of 105 grads, first job after graduating)",
+    "41% work in a different field today than their first job (28 of 69 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "graduate-cultural-studies",
+   "level": "graduate",
+   "program": "Cultural Studies",
+   "title": "Cultural Studies at Queen’s",
+   "ogTitle": "Cultural Studies at Queen’s: where 103 grads went",
+   "description": "29% of master’s & PhD grads in Cultural Studies started in research & academia. 62% work in a different field today than their first job. 1 in 13 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Cultural Studies at Queen’s. 103 grads. 29% of master’s & PhD grads in Cultural Studies started in research & academia. 62% work in a different field today than their first job. 1 in 13 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Cultural+Studies",
+   "image": "/share/graduate-cultural-studies.jpg",
+   "stats": [
+    "29% started in research & academia (30 of 103 grads, first job after graduating)",
+    "62% work in a different field today than their first job (50 of 81 grads with a job at both points)",
+    "1 in 13 live outside Canada today (8 of 103 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "undergrad-french-studies",
+   "level": "undergrad",
+   "program": "French Studies",
+   "title": "French Studies at Queen’s",
+   "ogTitle": "French Studies at Queen’s: where 103 grads went",
+   "description": "25% of French Studies grads started in teaching. Two thirds work in a different field today than their first job. 1 in 15 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "French Studies at Queen’s. 103 grads. 25% of French Studies grads started in teaching. Two thirds work in a different field today than their first job. 1 in 15 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=French+Studies",
+   "image": "/share/undergrad-french-studies.jpg",
+   "stats": [
+    "25% started in teaching (26 of 103 grads, first job after graduating)",
+    "Two thirds work in a different field today than their first job (41 of 62 grads with a job at both points)",
+    "1 in 15 live outside Canada today (7 of 103 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "graduate-physics",
+   "level": "graduate",
+   "program": "Physics",
+   "title": "Physics (master’s & PhD) at Queen’s",
+   "ogTitle": "Physics (master’s & PhD) at Queen’s: where 103 grads went",
+   "description": "39% of master’s & PhD grads in Physics started in research & academia. 48% work in a different field today than their first job. 1 in 7 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Physics (master’s & PhD) at Queen’s. 103 grads. 39% of master’s & PhD grads in Physics started in research & academia. 48% work in a different field today than their first job. 1 in 7 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Physics",
+   "image": "/share/graduate-physics.jpg",
+   "stats": [
+    "39% started in research & academia (40 of 103 grads, first job after graduating)",
+    "48% work in a different field today than their first job (31 of 65 grads with a job at both points)",
+    "1 in 7 live outside Canada today (15 of 103 grads with a known location, 8 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-applied-mathematics",
+   "level": "undergrad",
+   "program": "Applied Mathematics",
+   "title": "Applied Mathematics at Queen’s",
+   "ogTitle": "Applied Mathematics at Queen’s: where 101 grads went",
+   "description": "25% of Applied Mathematics grads started in tech. 42% work in a different field today than their first job. 1 in 14 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Applied Mathematics at Queen’s. 101 grads. 25% of Applied Mathematics grads started in tech. 42% work in a different field today than their first job. 1 in 14 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Applied+Mathematics",
+   "image": "/share/undergrad-applied-mathematics.jpg",
+   "stats": [
+    "25% started in tech (25 of 101 grads, first job after graduating)",
+    "42% work in a different field today than their first job (32 of 76 grads with a job at both points)",
+    "1 in 14 live outside Canada today (7 of 101 grads with a known location, 5 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-fine-art",
+   "level": "undergrad",
+   "program": "Fine Art",
+   "title": "Fine Art at Queen’s",
+   "ogTitle": "Fine Art at Queen’s: where 95 grads went",
+   "description": "18% of Fine Art grads started in arts & media. 60% work in a different field today than their first job. 1 in 8 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Fine Art at Queen’s. 95 grads. 18% of Fine Art grads started in arts & media. 60% work in a different field today than their first job. 1 in 8 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Fine+Art",
+   "image": "/share/undergrad-fine-art.jpg",
+   "stats": [
+    "18% started in arts & media (17 of 95 grads, first job after graduating)",
+    "60% work in a different field today than their first job (33 of 55 grads with a job at both points)",
+    "1 in 8 live outside Canada today (12 of 95 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "graduate-nursing",
+   "level": "graduate",
+   "program": "Nursing",
+   "title": "Nursing (master’s & PhD) at Queen’s",
+   "ogTitle": "Nursing (master’s & PhD) at Queen’s: where 95 grads went",
+   "description": "82% of master’s & PhD grads in Nursing started in healthcare. 23% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Nursing (master’s & PhD) at Queen’s. 95 grads. 82% of master’s & PhD grads in Nursing started in healthcare. 23% work in a different field today than their first job.",
+   "href": "/twin?level=graduate&program=Nursing",
+   "image": "/share/graduate-nursing.jpg",
+   "stats": [
+    "82% started in healthcare (78 of 95 grads, first job after graduating)",
+    "23% work in a different field today than their first job (20 of 88 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "graduate-biochemistry",
+   "level": "graduate",
+   "program": "Biochemistry",
+   "title": "Biochemistry (master’s & PhD) at Queen’s",
+   "ogTitle": "Biochemistry (master’s & PhD) at Queen’s: where 93 grads went",
+   "description": "68% of master’s & PhD grads in Biochemistry started in research & academia. 27% work in a different field today than their first job. 29% live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Biochemistry (master’s & PhD) at Queen’s. 93 grads. 68% of master’s & PhD grads in Biochemistry started in research & academia. 27% work in a different field today than their first job. 29% live outside Canada today.",
+   "href": "/twin?level=graduate&program=Biochemistry",
+   "image": "/share/graduate-biochemistry.jpg",
+   "stats": [
+    "68% started in research & academia (63 of 93 grads, first job after graduating)",
+    "27% work in a different field today than their first job (19 of 70 grads with a job at both points)",
+    "29% live outside Canada today (27 of 93 grads with a known location, 18 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-epidemiology",
+   "level": "graduate",
+   "program": "Epidemiology",
+   "title": "Epidemiology at Queen’s",
+   "ogTitle": "Epidemiology at Queen’s: where 91 grads went",
+   "description": "49% of master’s & PhD grads in Epidemiology started in research & academia. 38% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Epidemiology at Queen’s. 91 grads. 49% of master’s & PhD grads in Epidemiology started in research & academia. 38% work in a different field today than their first job.",
+   "href": "/twin?level=graduate&program=Epidemiology",
+   "image": "/share/graduate-epidemiology.jpg",
+   "stats": [
+    "49% started in research & academia (45 of 91 grads, first job after graduating)",
+    "38% work in a different field today than their first job (28 of 73 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "undergrad-classics",
+   "level": "undergrad",
+   "program": "Classics",
+   "title": "Classics (undergrad) at Queen’s",
+   "ogTitle": "Classics (undergrad) at Queen’s: where 88 grads went",
+   "description": "25% of Classics grads went straight on to more school. 58% work in a different field today than their first job. 1 in 10 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Classics (undergrad) at Queen’s. 88 grads. 25% of Classics grads went straight on to more school. 58% work in a different field today than their first job. 1 in 10 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Classics",
+   "image": "/share/undergrad-classics.jpg",
+   "stats": [
+    "25% went straight on to more school (22 of 88 grads, first job after graduating)",
+    "58% work in a different field today than their first job (31 of 53 grads with a job at both points)",
+    "1 in 10 live outside Canada today (9 of 88 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "graduate-engineering-unspecified",
+   "level": "graduate",
+   "program": "Engineering (unspecified)",
+   "title": "Engineering (unspecified) (master’s & PhD) at Queen’s",
+   "ogTitle": "Engineering (unspecified) (master’s & PhD) at Queen’s: where 88 grads went",
+   "description": "30% of master’s & PhD grads in Engineering (unspecified) started in engineering. 45% work in a different field today than their first job. 1 in 8 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Engineering (unspecified) (master’s & PhD) at Queen’s. 88 grads. 30% of master’s & PhD grads in Engineering (unspecified) started in engineering. 45% work in a different field today than their first job. 1 in 8 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Engineering+%28unspecified%29",
+   "image": "/share/graduate-engineering-unspecified.jpg",
+   "stats": [
+    "30% started in engineering (26 of 88 grads, first job after graduating)",
+    "45% work in a different field today than their first job (25 of 55 grads with a job at both points)",
+    "1 in 8 live outside Canada today (11 of 88 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "undergrad-gender-studies",
+   "level": "undergrad",
+   "program": "Gender Studies",
+   "title": "Gender Studies (undergrad) at Queen’s",
+   "ogTitle": "Gender Studies (undergrad) at Queen’s: where 87 grads went",
+   "description": "20% of Gender Studies grads went straight on to more school. Half work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Gender Studies (undergrad) at Queen’s. 87 grads. 20% of Gender Studies grads went straight on to more school. Half work in a different field today than their first job.",
+   "href": "/twin?level=undergrad&program=Gender+Studies",
+   "image": "/share/undergrad-gender-studies.jpg",
+   "stats": [
+    "20% went straight on to more school (17 of 87 grads, first job after graduating)",
+    "Half work in a different field today than their first job (26 of 53 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "graduate-art-history",
+   "level": "graduate",
+   "program": "Art History",
+   "title": "Art History (master’s & PhD) at Queen’s",
+   "ogTitle": "Art History (master’s & PhD) at Queen’s: where 84 grads went",
+   "description": "31% of master’s & PhD grads in Art History started in arts & media. 58% work in a different field today than their first job. 1 in 6 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Art History (master’s & PhD) at Queen’s. 84 grads. 31% of master’s & PhD grads in Art History started in arts & media. 58% work in a different field today than their first job. 1 in 6 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Art+History",
+   "image": "/share/graduate-art-history.jpg",
+   "stats": [
+    "31% started in arts & media (26 of 84 grads, first job after graduating)",
+    "58% work in a different field today than their first job (33 of 57 grads with a job at both points)",
+    "1 in 6 live outside Canada today (14 of 84 grads with a known location, 7 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-software-design",
+   "level": "undergrad",
+   "program": "Software Design",
+   "title": "Software Design at Queen’s",
+   "ogTitle": "Software Design at Queen’s: where 84 grads went",
+   "description": "57% of Software Design grads started in tech. 40% work in a different field today than their first job. 1 in 8 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Software Design at Queen’s. 84 grads. 57% of Software Design grads started in tech. 40% work in a different field today than their first job. 1 in 8 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Software+Design",
+   "image": "/share/undergrad-software-design.jpg",
+   "stats": [
+    "57% started in tech (48 of 84 grads, first job after graduating)",
+    "40% work in a different field today than their first job (25 of 63 grads with a job at both points)",
+    "1 in 8 live outside Canada today (10 of 84 grads with a known location, 5 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-law",
+   "level": "graduate",
+   "program": "Law",
+   "title": "Law (master’s & PhD) at Queen’s",
+   "ogTitle": "Law (master’s & PhD) at Queen’s: where 79 grads went",
+   "description": "49% of master’s & PhD grads in Law started in law. 42% work in a different field today than their first job. 1 in 4 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Law (master’s & PhD) at Queen’s. 79 grads. 49% of master’s & PhD grads in Law started in law. 42% work in a different field today than their first job. 1 in 4 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Law",
+   "image": "/share/graduate-law.jpg",
+   "stats": [
+    "49% started in law (39 of 79 grads, first job after graduating)",
+    "42% work in a different field today than their first job (30 of 71 grads with a job at both points)",
+    "1 in 4 live outside Canada today (18 of 79 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "undergrad-biochemical-engineering",
+   "level": "undergrad",
+   "program": "Biochemical Engineering",
+   "title": "Biochemical Engineering at Queen’s",
+   "ogTitle": "Biochemical Engineering at Queen’s: where 73 grads went",
+   "description": "27% of Biochemical Engineering grads started in engineering. 44% work in a different field today than their first job. 1 in 15 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Biochemical Engineering at Queen’s. 73 grads. 27% of Biochemical Engineering grads started in engineering. 44% work in a different field today than their first job. 1 in 15 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Biochemical+Engineering",
+   "image": "/share/undergrad-biochemical-engineering.jpg",
+   "stats": [
+    "27% started in engineering (20 of 73 grads, first job after graduating)",
+    "44% work in a different field today than their first job (23 of 52 grads with a job at both points)",
+    "1 in 15 live outside Canada today (5 of 73 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "graduate-rehabilitation-science",
+   "level": "graduate",
+   "program": "Rehabilitation Science",
+   "title": "Rehabilitation Science at Queen’s",
+   "ogTitle": "Rehabilitation Science at Queen’s: where 72 grads went",
+   "description": "35% of master’s & PhD grads in Rehabilitation Science started in healthcare. 36% work in a different field today than their first job. 1 in 8 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Rehabilitation Science at Queen’s. 72 grads. 35% of master’s & PhD grads in Rehabilitation Science started in healthcare. 36% work in a different field today than their first job. 1 in 8 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Rehabilitation+Science",
+   "image": "/share/graduate-rehabilitation-science.jpg",
+   "stats": [
+    "35% started in healthcare (25 of 72 grads, first job after graduating)",
+    "36% work in a different field today than their first job (19 of 53 grads with a job at both points)",
+    "1 in 8 live outside Canada today (9 of 72 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "graduate-urban-and-regional-planning",
+   "level": "graduate",
+   "program": "Urban and Regional Planning",
+   "title": "Urban and Regional Planning at Queen’s",
+   "ogTitle": "Urban and Regional Planning at Queen’s: where 70 grads went",
+   "description": "39% of master’s & PhD grads in Urban and Regional Planning started in government & policy. 59% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Urban and Regional Planning at Queen’s. 70 grads. 39% of master’s & PhD grads in Urban and Regional Planning started in government & policy. 59% work in a different field today than their first job.",
+   "href": "/twin?level=graduate&program=Urban+and+Regional+Planning",
+   "image": "/share/graduate-urban-and-regional-planning.jpg",
+   "stats": [
+    "39% started in government & policy (27 of 70 grads, first job after graduating)",
+    "59% work in a different field today than their first job (34 of 58 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "undergrad-science-general",
+   "level": "undergrad",
+   "program": "Science (general)",
+   "title": "Science (general) at Queen’s",
+   "ogTitle": "Science (general) at Queen’s: where 66 grads went",
+   "description": "18% of Science (general) grads went straight on to more school. 56% work in a different field today than their first job. 1 in 7 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Science (general) at Queen’s. 66 grads. 18% of Science (general) grads went straight on to more school. 56% work in a different field today than their first job. 1 in 7 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Science+%28general%29",
+   "image": "/share/undergrad-science-general.jpg",
+   "stats": [
+    "18% went straight on to more school (12 of 66 grads, first job after graduating)",
+    "56% work in a different field today than their first job (23 of 41 grads with a job at both points)",
+    "1 in 7 live outside Canada today (9 of 66 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "graduate-geological-engineering",
+   "level": "graduate",
+   "program": "Geological Engineering",
+   "title": "Geological Engineering (master’s & PhD) at Queen’s",
+   "ogTitle": "Geological Engineering (master’s & PhD) at Queen’s: where 62 grads went",
+   "description": "35% of master’s & PhD grads in Geological Engineering started in engineering. 52% work in a different field today than their first job. 1 in 3 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Geological Engineering (master’s & PhD) at Queen’s. 62 grads. 35% of master’s & PhD grads in Geological Engineering started in engineering. 52% work in a different field today than their first job. 1 in 3 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Geological+Engineering",
+   "image": "/share/graduate-geological-engineering.jpg",
+   "stats": [
+    "35% started in engineering (22 of 62 grads, first job after graduating)",
+    "52% work in a different field today than their first job (26 of 50 grads with a job at both points)",
+    "1 in 3 live outside Canada today (19 of 62 grads with a known location, 6 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-environmental-studies",
+   "level": "graduate",
+   "program": "Environmental Studies",
+   "title": "Environmental Studies (master’s & PhD) at Queen’s",
+   "ogTitle": "Environmental Studies (master’s & PhD) at Queen’s: where 61 grads went",
+   "description": "38% of master’s & PhD grads in Environmental Studies started in research & academia. 60% work in a different field today than their first job. 1 in 12 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Environmental Studies (master’s & PhD) at Queen’s. 61 grads. 38% of master’s & PhD grads in Environmental Studies started in research & academia. 60% work in a different field today than their first job. 1 in 12 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Environmental+Studies",
+   "image": "/share/graduate-environmental-studies.jpg",
+   "stats": [
+    "38% started in research & academia (23 of 61 grads, first job after graduating)",
+    "60% work in a different field today than their first job (30 of 50 grads with a job at both points)",
+    "1 in 12 live outside Canada today (5 of 61 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "undergrad-physical-therapy",
+   "level": "undergrad",
+   "program": "Physical Therapy",
+   "title": "Physical Therapy (undergrad) at Queen’s",
+   "ogTitle": "Physical Therapy (undergrad) at Queen’s: where 61 grads went",
+   "description": "69% of Physical Therapy grads started in healthcare. A quarter work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Physical Therapy (undergrad) at Queen’s. 61 grads. 69% of Physical Therapy grads started in healthcare. A quarter work in a different field today than their first job.",
+   "href": "/twin?level=undergrad&program=Physical+Therapy",
+   "image": "/share/undergrad-physical-therapy.jpg",
+   "stats": [
+    "69% started in healthcare (42 of 61 grads, first job after graduating)",
+    "A quarter work in a different field today than their first job (11 of 44 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "undergrad-biomedical-computing",
+   "level": "undergrad",
+   "program": "Biomedical Computing",
+   "title": "Biomedical Computing at Queen’s",
+   "ogTitle": "Biomedical Computing at Queen’s: where 60 grads went",
+   "description": "40% of Biomedical Computing grads started in tech. 54% work in a different field today than their first job. 1 in 9 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Biomedical Computing at Queen’s. 60 grads. 40% of Biomedical Computing grads started in tech. 54% work in a different field today than their first job. 1 in 9 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Biomedical+Computing",
+   "image": "/share/undergrad-biomedical-computing.jpg",
+   "stats": [
+    "40% started in tech (24 of 60 grads, first job after graduating)",
+    "54% work in a different field today than their first job (21 of 39 grads with a job at both points)",
+    "1 in 9 live outside Canada today (7 of 60 grads with a known location, 6 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-aging-and-health",
+   "level": "graduate",
+   "program": "Aging and Health",
+   "title": "Aging and Health at Queen’s",
+   "ogTitle": "Aging and Health at Queen’s: where 59 grads went",
+   "description": "32% of master’s & PhD grads in Aging and Health started in healthcare. 42% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Aging and Health at Queen’s. 59 grads. 32% of master’s & PhD grads in Aging and Health started in healthcare. 42% work in a different field today than their first job.",
+   "href": "/twin?level=graduate&program=Aging+and+Health",
+   "image": "/share/graduate-aging-and-health.jpg",
+   "stats": [
+    "32% started in healthcare (19 of 59 grads, first job after graduating)",
+    "42% work in a different field today than their first job (22 of 52 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "graduate-global-development-studies",
+   "level": "graduate",
+   "program": "Global Development Studies",
+   "title": "Global Development Studies (master’s & PhD) at Queen’s",
+   "ogTitle": "Global Development Studies (master’s & PhD) at Queen’s: where 59 grads went",
+   "description": "22% of master’s & PhD grads in Global Development Studies started in operations & management. 65% work in a different field today than their first job. 1 in 8 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Global Development Studies (master’s & PhD) at Queen’s. 59 grads. 22% of master’s & PhD grads in Global Development Studies started in operations & management. 65% work in a different field today than their first job. 1 in 8 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Global+Development+Studies",
+   "image": "/share/graduate-global-development-studies.jpg",
+   "stats": [
+    "22% started in operations & management (13 of 59 grads, first job after graduating)",
+    "65% work in a different field today than their first job (30 of 46 grads with a job at both points)",
+    "1 in 8 live outside Canada today (7 of 59 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "undergrad-occupational-therapy",
+   "level": "undergrad",
+   "program": "Occupational Therapy",
+   "title": "Occupational Therapy (undergrad) at Queen’s",
+   "ogTitle": "Occupational Therapy (undergrad) at Queen’s: where 56 grads went",
+   "description": "57% of Occupational Therapy grads started in healthcare. 16% work in a different field today than their first job. 1 in 7 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Occupational Therapy (undergrad) at Queen’s. 56 grads. 57% of Occupational Therapy grads started in healthcare. 16% work in a different field today than their first job. 1 in 7 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Occupational+Therapy",
+   "image": "/share/undergrad-occupational-therapy.jpg",
+   "stats": [
+    "57% started in healthcare (32 of 56 grads, first job after graduating)",
+    "16% work in a different field today than their first job (6 of 37 grads with a job at both points)",
+    "1 in 7 live outside Canada today (8 of 56 grads with a known location, 8 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-linguistics",
+   "level": "undergrad",
+   "program": "Linguistics",
+   "title": "Linguistics at Queen’s",
+   "ogTitle": "Linguistics at Queen’s: where 55 grads went",
+   "description": "15% of Linguistics grads went straight on to more school. 54% work in a different field today than their first job. 1 in 9 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Linguistics at Queen’s. 55 grads. 15% of Linguistics grads went straight on to more school. 54% work in a different field today than their first job. 1 in 9 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Linguistics",
+   "image": "/share/undergrad-linguistics.jpg",
+   "stats": [
+    "15% went straight on to more school (8 of 55 grads, first job after graduating)",
+    "54% work in a different field today than their first job (22 of 41 grads with a job at both points)",
+    "1 in 9 live outside Canada today (6 of 55 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "undergrad-software-engineering",
+   "level": "undergrad",
+   "program": "Software Engineering",
+   "title": "Software Engineering at Queen’s",
+   "ogTitle": "Software Engineering at Queen’s: where 54 grads went",
+   "description": "69% of Software Engineering grads started in tech. A third work in a different field today than their first job. 1 in 7 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Software Engineering at Queen’s. 54 grads. 69% of Software Engineering grads started in tech. A third work in a different field today than their first job. 1 in 7 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Software+Engineering",
+   "image": "/share/undergrad-software-engineering.jpg",
+   "stats": [
+    "69% started in tech (37 of 54 grads, first job after graduating)",
+    "A third work in a different field today than their first job (16 of 47 grads with a job at both points)",
+    "1 in 7 live outside Canada today (8 of 54 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "graduate-philosophy",
+   "level": "graduate",
+   "program": "Philosophy",
+   "title": "Philosophy (master’s & PhD) at Queen’s",
+   "ogTitle": "Philosophy (master’s & PhD) at Queen’s: where 53 grads went",
+   "description": "21% of master’s & PhD grads in Philosophy started in research & academia. 63% work in a different field today than their first job. 1 in 8 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Philosophy (master’s & PhD) at Queen’s. 53 grads. 21% of master’s & PhD grads in Philosophy started in research & academia. 63% work in a different field today than their first job. 1 in 8 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Philosophy",
+   "image": "/share/graduate-philosophy.jpg",
+   "stats": [
+    "21% started in research & academia (11 of 53 grads, first job after graduating)",
+    "63% work in a different field today than their first job (19 of 30 grads with a job at both points)",
+    "1 in 8 live outside Canada today (7 of 53 grads with a known location, 6 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-religious-studies",
+   "level": "undergrad",
+   "program": "Religious Studies",
+   "title": "Religious Studies (undergrad) at Queen’s",
+   "ogTitle": "Religious Studies (undergrad) at Queen’s: where 53 grads went",
+   "description": "23% of Religious Studies grads started in service, trades & sport. 71% work in a different field today than their first job. 1 in 5 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Religious Studies (undergrad) at Queen’s. 53 grads. 23% of Religious Studies grads started in service, trades & sport. 71% work in a different field today than their first job. 1 in 5 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Religious+Studies",
+   "image": "/share/undergrad-religious-studies.jpg",
+   "stats": [
+    "23% started in service, trades & sport (12 of 53 grads, first job after graduating)",
+    "71% work in a different field today than their first job (27 of 38 grads with a job at both points)",
+    "1 in 5 live outside Canada today (10 of 53 grads with a known location, 5 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-computer-engineering",
+   "level": "graduate",
+   "program": "Computer Engineering",
+   "title": "Computer Engineering (master’s & PhD) at Queen’s",
+   "ogTitle": "Computer Engineering (master’s & PhD) at Queen’s: where 51 grads went",
+   "description": "45% of master’s & PhD grads in Computer Engineering started in tech. 35% work in a different field today than their first job. 1 in 3 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Computer Engineering (master’s & PhD) at Queen’s. 51 grads. 45% of master’s & PhD grads in Computer Engineering started in tech. 35% work in a different field today than their first job. 1 in 3 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Computer+Engineering",
+   "image": "/share/graduate-computer-engineering.jpg",
+   "stats": [
+    "45% started in tech (23 of 51 grads, first job after graduating)",
+    "35% work in a different field today than their first job (13 of 37 grads with a job at both points)",
+    "1 in 3 live outside Canada today (16 of 51 grads with a known location, 9 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-analytics",
+   "level": "graduate",
+   "program": "Analytics",
+   "title": "Analytics at Queen’s",
+   "ogTitle": "Analytics at Queen’s: where 48 grads went",
+   "description": "56% of master’s & PhD grads in Analytics started in tech. 29% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Analytics at Queen’s. 48 grads. 56% of master’s & PhD grads in Analytics started in tech. 29% work in a different field today than their first job.",
+   "href": "/twin?level=graduate&program=Analytics",
+   "image": "/share/graduate-analytics.jpg",
+   "stats": [
+    "56% started in tech (27 of 48 grads, first job after graduating)",
+    "29% work in a different field today than their first job (13 of 45 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "undergrad-environmental-studies",
+   "level": "undergrad",
+   "program": "Environmental Studies",
+   "title": "Environmental Studies (undergrad) at Queen’s",
+   "ogTitle": "Environmental Studies (undergrad) at Queen’s: where 47 grads went",
+   "description": "30% of Environmental Studies grads started in service, trades & sport. 65% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Environmental Studies (undergrad) at Queen’s. 47 grads. 30% of Environmental Studies grads started in service, trades & sport. 65% work in a different field today than their first job.",
+   "href": "/twin?level=undergrad&program=Environmental+Studies",
+   "image": "/share/undergrad-environmental-studies.jpg",
+   "stats": [
+    "30% started in service, trades & sport (14 of 47 grads, first job after graduating)",
+    "65% work in a different field today than their first job (22 of 34 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "graduate-geotechnical-engineering",
+   "level": "graduate",
+   "program": "Geotechnical Engineering",
+   "title": "Geotechnical Engineering at Queen’s",
+   "ogTitle": "Geotechnical Engineering at Queen’s: where 47 grads went",
+   "description": "66% of master’s & PhD grads in Geotechnical Engineering started in engineering. 21% work in a different field today than their first job. 1 in 7 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Geotechnical Engineering at Queen’s. 47 grads. 66% of master’s & PhD grads in Geotechnical Engineering started in engineering. 21% work in a different field today than their first job. 1 in 7 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Geotechnical+Engineering",
+   "image": "/share/graduate-geotechnical-engineering.jpg",
+   "stats": [
+    "66% started in engineering (31 of 47 grads, first job after graduating)",
+    "21% work in a different field today than their first job (8 of 38 grads with a job at both points)",
+    "1 in 7 live outside Canada today (7 of 47 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "graduate-mathematics",
+   "level": "graduate",
+   "program": "Mathematics",
+   "title": "Mathematics (master’s & PhD) at Queen’s",
+   "ogTitle": "Mathematics (master’s & PhD) at Queen’s: where 47 grads went",
+   "description": "43% of master’s & PhD grads in Mathematics started in research & academia. 38% work in a different field today than their first job. 1 in 5 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Mathematics (master’s & PhD) at Queen’s. 47 grads. 43% of master’s & PhD grads in Mathematics started in research & academia. 38% work in a different field today than their first job. 1 in 5 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Mathematics",
+   "image": "/share/graduate-mathematics.jpg",
+   "stats": [
+    "43% started in research & academia (20 of 47 grads, first job after graduating)",
+    "38% work in a different field today than their first job (10 of 26 grads with a job at both points)",
+    "1 in 5 live outside Canada today (9 of 47 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "graduate-pathology-and-molecular-medicine",
+   "level": "graduate",
+   "program": "Pathology and Molecular Medicine",
+   "title": "Pathology and Molecular Medicine at Queen’s",
+   "ogTitle": "Pathology and Molecular Medicine at Queen’s: where 47 grads went",
+   "description": "68% of master’s & PhD grads in Pathology and Molecular Medicine started in research & academia. 62% work in a different field today than their first job. 1 in 9 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Pathology and Molecular Medicine at Queen’s. 47 grads. 68% of master’s & PhD grads in Pathology and Molecular Medicine started in research & academia. 62% work in a different field today than their first job. 1 in 9 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Pathology+and+Molecular+Medicine",
+   "image": "/share/graduate-pathology-and-molecular-medicine.jpg",
+   "stats": [
+    "68% started in research & academia (32 of 47 grads, first job after graduating)",
+    "62% work in a different field today than their first job (24 of 39 grads with a job at both points)",
+    "1 in 9 live outside Canada today (5 of 47 grads with a known location, 5 in the US)"
+   ]
+  },
+  {
+   "slug": "undergrad-arts-and-science",
+   "level": "undergrad",
+   "program": "Arts and Science",
+   "title": "Arts and Science at Queen’s",
+   "ogTitle": "Arts and Science at Queen’s: where 44 grads went",
+   "description": "18% of Arts and Science grads went straight on to more school. 55% work in a different field today than their first job. 23% live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Arts and Science at Queen’s. 44 grads. 18% of Arts and Science grads went straight on to more school. 55% work in a different field today than their first job. 23% live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Arts+and+Science",
+   "image": "/share/undergrad-arts-and-science.jpg",
+   "stats": [
+    "18% went straight on to more school (8 of 44 grads, first job after graduating)",
+    "55% work in a different field today than their first job (11 of 20 grads with a job at both points)",
+    "23% live outside Canada today (10 of 44 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "undergrad-outdoor-and-experiential-education",
+   "level": "undergrad",
+   "program": "Outdoor and Experiential Education",
+   "title": "Outdoor and Experiential Education at Queen’s",
+   "ogTitle": "Outdoor and Experiential Education at Queen’s: where 43 grads went",
+   "description": "49% of Outdoor and Experiential Education grads started in teaching. 59% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Outdoor and Experiential Education at Queen’s. 43 grads. 49% of Outdoor and Experiential Education grads started in teaching. 59% work in a different field today than their first job.",
+   "href": "/twin?level=undergrad&program=Outdoor+and+Experiential+Education",
+   "image": "/share/undergrad-outdoor-and-experiential-education.jpg",
+   "stats": [
+    "49% started in teaching (21 of 43 grads, first job after graduating)",
+    "59% work in a different field today than their first job (19 of 32 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "graduate-data-analytics",
+   "level": "graduate",
+   "program": "Data Analytics",
+   "title": "Data Analytics at Queen’s",
+   "ogTitle": "Data Analytics at Queen’s: where 42 grads went",
+   "description": "55% of master’s & PhD grads in Data Analytics started in tech. 35% work in a different field today than their first job. 1 in 5 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Data Analytics at Queen’s. 42 grads. 55% of master’s & PhD grads in Data Analytics started in tech. 35% work in a different field today than their first job. 1 in 5 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Data+Analytics",
+   "image": "/share/graduate-data-analytics.jpg",
+   "stats": [
+    "55% started in tech (23 of 42 grads, first job after graduating)",
+    "35% work in a different field today than their first job (13 of 37 grads with a job at both points)",
+    "1 in 5 live outside Canada today (8 of 42 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "graduate-financial-innovation-and-technology",
+   "level": "graduate",
+   "program": "Financial Innovation and Technology",
+   "title": "Financial Innovation and Technology at Queen’s",
+   "ogTitle": "Financial Innovation and Technology at Queen’s: where 42 grads went",
+   "description": "33% of master’s & PhD grads in Financial Innovation and Technology started in tech. 38% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Financial Innovation and Technology at Queen’s. 42 grads. 33% of master’s & PhD grads in Financial Innovation and Technology started in tech. 38% work in a different field today than their first job.",
+   "href": "/twin?level=graduate&program=Financial+Innovation+and+Technology",
+   "image": "/share/graduate-financial-innovation-and-technology.jpg",
+   "stats": [
+    "33% started in tech (14 of 42 grads, first job after graduating)",
+    "38% work in a different field today than their first job (13 of 34 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "graduate-management-in-artificial-intelligence",
+   "level": "graduate",
+   "program": "Management in Artificial Intelligence",
+   "title": "Management in Artificial Intelligence at Queen’s",
+   "ogTitle": "Management in Artificial Intelligence at Queen’s: where 42 grads went",
+   "description": "57% of master’s & PhD grads in Management in Artificial Intelligence started in tech. 38% work in a different field today than their first job. 1 in 8 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Management in Artificial Intelligence at Queen’s. 42 grads. 57% of master’s & PhD grads in Management in Artificial Intelligence started in tech. 38% work in a different field today than their first job. 1 in 8 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Management+in+Artificial+Intelligence",
+   "image": "/share/graduate-management-in-artificial-intelligence.jpg",
+   "stats": [
+    "57% started in tech (24 of 42 grads, first job after graduating)",
+    "38% work in a different field today than their first job (15 of 39 grads with a job at both points)",
+    "1 in 8 live outside Canada today (5 of 42 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "graduate-marketing",
+   "level": "graduate",
+   "program": "Marketing",
+   "title": "Marketing at Queen’s",
+   "ogTitle": "Marketing at Queen’s: where 41 grads went",
+   "description": "39% of master’s & PhD grads in Marketing started in research & academia. A quarter work in a different field today than their first job. 1 in 3 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Marketing at Queen’s. 41 grads. 39% of master’s & PhD grads in Marketing started in research & academia. A quarter work in a different field today than their first job. 1 in 3 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Marketing",
+   "image": "/share/graduate-marketing.jpg",
+   "stats": [
+    "39% started in research & academia (16 of 41 grads, first job after graduating)",
+    "A quarter work in a different field today than their first job (8 of 31 grads with a job at both points)",
+    "1 in 3 live outside Canada today (13 of 41 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "graduate-entrepreneurship",
+   "level": "graduate",
+   "program": "Entrepreneurship",
+   "title": "Entrepreneurship at Queen’s",
+   "ogTitle": "Entrepreneurship at Queen’s: where 40 grads went",
+   "description": "25% of master’s & PhD grads in Entrepreneurship started in founders. 53% work in a different field today than their first job. 45% live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Entrepreneurship at Queen’s. 40 grads. 25% of master’s & PhD grads in Entrepreneurship started in founders. 53% work in a different field today than their first job. 45% live outside Canada today.",
+   "href": "/twin?level=graduate&program=Entrepreneurship",
+   "image": "/share/graduate-entrepreneurship.jpg",
+   "stats": [
+    "25% started in founders (10 of 40 grads, first job after graduating)",
+    "53% work in a different field today than their first job (19 of 36 grads with a job at both points)",
+    "45% live outside Canada today (18 of 40 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "undergrad-environmental-biology",
+   "level": "undergrad",
+   "program": "Environmental Biology",
+   "title": "Environmental Biology at Queen’s",
+   "ogTitle": "Environmental Biology at Queen’s: where 39 grads went",
+   "description": "21% of Environmental Biology grads started in operations & management. 71% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Environmental Biology at Queen’s. 39 grads. 21% of Environmental Biology grads started in operations & management. 71% work in a different field today than their first job.",
+   "href": "/twin?level=undergrad&program=Environmental+Biology",
+   "image": "/share/undergrad-environmental-biology.jpg",
+   "stats": [
+    "21% started in operations & management (8 of 39 grads, first job after graduating)",
+    "71% work in a different field today than their first job (15 of 21 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "graduate-arts-leadership",
+   "level": "graduate",
+   "program": "Arts Leadership",
+   "title": "Arts Leadership at Queen’s",
+   "ogTitle": "Arts Leadership at Queen’s: where 38 grads went",
+   "description": "21% of master’s & PhD grads in Arts Leadership started in operations & management. 73% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Arts Leadership at Queen’s. 38 grads. 21% of master’s & PhD grads in Arts Leadership started in operations & management. 73% work in a different field today than their first job.",
+   "href": "/twin?level=graduate&program=Arts+Leadership",
+   "image": "/share/graduate-arts-leadership.jpg",
+   "stats": [
+    "21% started in operations & management (8 of 38 grads, first job after graduating)",
+    "73% work in a different field today than their first job (24 of 33 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "graduate-management",
+   "level": "graduate",
+   "program": "Management",
+   "title": "Management at Queen’s",
+   "ogTitle": "Management at Queen’s: where 37 grads went",
+   "description": "19% of master’s & PhD grads in Management started in consulting & strategy. 52% work in a different field today than their first job. 1 in 4 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Management at Queen’s. 37 grads. 19% of master’s & PhD grads in Management started in consulting & strategy. 52% work in a different field today than their first job. 1 in 4 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Management",
+   "image": "/share/graduate-management.jpg",
+   "stats": [
+    "19% started in consulting & strategy (7 of 37 grads, first job after graduating)",
+    "52% work in a different field today than their first job (14 of 27 grads with a job at both points)",
+    "1 in 4 live outside Canada today (9 of 37 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "graduate-health-studies",
+   "level": "graduate",
+   "program": "Health Studies",
+   "title": "Health Studies (master’s & PhD) at Queen’s",
+   "ogTitle": "Health Studies (master’s & PhD) at Queen’s: where 36 grads went",
+   "description": "22% of master’s & PhD grads in Health Studies started in operations & management. 55% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Health Studies (master’s & PhD) at Queen’s. 36 grads. 22% of master’s & PhD grads in Health Studies started in operations & management. 55% work in a different field today than their first job.",
+   "href": "/twin?level=graduate&program=Health+Studies",
+   "image": "/share/graduate-health-studies.jpg",
+   "stats": [
+    "22% started in operations & management (8 of 36 grads, first job after graduating)",
+    "55% work in a different field today than their first job (17 of 31 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "undergrad-mathematics-and-statistics",
+   "level": "undergrad",
+   "program": "Mathematics and Statistics",
+   "title": "Mathematics and Statistics at Queen’s",
+   "ogTitle": "Mathematics and Statistics at Queen’s: where 36 grads went",
+   "description": "22% of Mathematics and Statistics grads started in tech. 55% work in a different field today than their first job. 1 in 7 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Mathematics and Statistics at Queen’s. 36 grads. 22% of Mathematics and Statistics grads started in tech. 55% work in a different field today than their first job. 1 in 7 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Mathematics+and+Statistics",
+   "image": "/share/undergrad-mathematics-and-statistics.jpg",
+   "stats": [
+    "22% started in tech (8 of 36 grads, first job after graduating)",
+    "55% work in a different field today than their first job (17 of 31 grads with a job at both points)",
+    "1 in 7 live outside Canada today (5 of 36 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "undergrad-biomechanical-engineering",
+   "level": "undergrad",
+   "program": "Biomechanical Engineering",
+   "title": "Biomechanical Engineering at Queen’s",
+   "ogTitle": "Biomechanical Engineering at Queen’s: where 35 grads went",
+   "description": "31% of Biomechanical Engineering grads started in engineering. 57% work in a different field today than their first job. 1 in 5 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Biomechanical Engineering at Queen’s. 35 grads. 31% of Biomechanical Engineering grads started in engineering. 57% work in a different field today than their first job. 1 in 5 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Biomechanical+Engineering",
+   "image": "/share/undergrad-biomechanical-engineering.jpg",
+   "stats": [
+    "31% started in engineering (11 of 35 grads, first job after graduating)",
+    "57% work in a different field today than their first job (17 of 30 grads with a job at both points)",
+    "1 in 5 live outside Canada today (7 of 35 grads with a known location, 7 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-data-science",
+   "level": "graduate",
+   "program": "Data Science",
+   "title": "Data Science at Queen’s",
+   "ogTitle": "Data Science at Queen’s: where 35 grads went",
+   "description": "54% of master’s & PhD grads in Data Science started in tech. 28% work in a different field today than their first job. 40% live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Data Science at Queen’s. 35 grads. 54% of master’s & PhD grads in Data Science started in tech. 28% work in a different field today than their first job. 40% live outside Canada today.",
+   "href": "/twin?level=graduate&program=Data+Science",
+   "image": "/share/graduate-data-science.jpg",
+   "stats": [
+    "54% started in tech (19 of 35 grads, first job after graduating)",
+    "28% work in a different field today than their first job (8 of 29 grads with a job at both points)",
+    "40% live outside Canada today (14 of 35 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "graduate-family-medicine",
+   "level": "graduate",
+   "program": "Family Medicine",
+   "title": "Family Medicine at Queen’s",
+   "ogTitle": "Family Medicine at Queen’s: where 34 grads went",
+   "description": "71% of master’s & PhD grads in Family Medicine started in healthcare. 36% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Family Medicine at Queen’s. 34 grads. 71% of master’s & PhD grads in Family Medicine started in healthcare. 36% work in a different field today than their first job.",
+   "href": "/twin?level=graduate&program=Family+Medicine",
+   "image": "/share/graduate-family-medicine.jpg",
+   "stats": [
+    "71% started in healthcare (24 of 34 grads, first job after graduating)",
+    "36% work in a different field today than their first job (10 of 28 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "graduate-gender-studies",
+   "level": "graduate",
+   "program": "Gender Studies",
+   "title": "Gender Studies (master’s & PhD) at Queen’s",
+   "ogTitle": "Gender Studies (master’s & PhD) at Queen’s: where 34 grads went",
+   "description": "18% of master’s & PhD grads in Gender Studies went straight on to more school. 72% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Gender Studies (master’s & PhD) at Queen’s. 34 grads. 18% of master’s & PhD grads in Gender Studies went straight on to more school. 72% work in a different field today than their first job.",
+   "href": "/twin?level=graduate&program=Gender+Studies",
+   "image": "/share/graduate-gender-studies.jpg",
+   "stats": [
+    "18% went straight on to more school (6 of 34 grads, first job after graduating)",
+    "72% work in a different field today than their first job (18 of 25 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "graduate-pharmacology-and-toxicology",
+   "level": "graduate",
+   "program": "Pharmacology and Toxicology",
+   "title": "Pharmacology and Toxicology at Queen’s",
+   "ogTitle": "Pharmacology and Toxicology at Queen’s: where 34 grads went",
+   "description": "47% of master’s & PhD grads in Pharmacology and Toxicology started in research & academia. 57% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Pharmacology and Toxicology at Queen’s. 34 grads. 47% of master’s & PhD grads in Pharmacology and Toxicology started in research & academia. 57% work in a different field today than their first job.",
+   "href": "/twin?level=graduate&program=Pharmacology+and+Toxicology",
+   "image": "/share/graduate-pharmacology-and-toxicology.jpg",
+   "stats": [
+    "47% started in research & academia (16 of 34 grads, first job after graduating)",
+    "57% work in a different field today than their first job (12 of 21 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "undergrad-biotechnology",
+   "level": "undergrad",
+   "program": "Biotechnology",
+   "title": "Biotechnology at Queen’s",
+   "ogTitle": "Biotechnology at Queen’s: where 33 grads went",
+   "description": "27% of Biotechnology grads started in research & academia. 40% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Biotechnology at Queen’s. 33 grads. 27% of Biotechnology grads started in research & academia. 40% work in a different field today than their first job.",
+   "href": "/twin?level=undergrad&program=Biotechnology",
+   "image": "/share/undergrad-biotechnology.jpg",
+   "stats": [
+    "27% started in research & academia (9 of 33 grads, first job after graduating)",
+    "40% work in a different field today than their first job (8 of 20 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "graduate-engineering-physics",
+   "level": "graduate",
+   "program": "Engineering Physics",
+   "title": "Engineering Physics (master’s & PhD) at Queen’s",
+   "ogTitle": "Engineering Physics (master’s & PhD) at Queen’s: where 33 grads went",
+   "description": "24% of master’s & PhD grads in Engineering Physics started in research & academia. Half work in a different field today than their first job. 1 in 5 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Engineering Physics (master’s & PhD) at Queen’s. 33 grads. 24% of master’s & PhD grads in Engineering Physics started in research & academia. Half work in a different field today than their first job. 1 in 5 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Engineering+Physics",
+   "image": "/share/graduate-engineering-physics.jpg",
+   "stats": [
+    "24% started in research & academia (8 of 33 grads, first job after graduating)",
+    "Half work in a different field today than their first job (13 of 26 grads with a job at both points)",
+    "1 in 5 live outside Canada today (7 of 33 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "graduate-public-health-sciences",
+   "level": "graduate",
+   "program": "Public Health Sciences",
+   "title": "Public Health Sciences at Queen’s",
+   "ogTitle": "Public Health Sciences at Queen’s: where 32 grads went",
+   "description": "28% of master’s & PhD grads in Public Health Sciences started in research & academia. 45% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Public Health Sciences at Queen’s. 32 grads. 28% of master’s & PhD grads in Public Health Sciences started in research & academia. 45% work in a different field today than their first job.",
+   "href": "/twin?level=graduate&program=Public+Health+Sciences",
+   "image": "/share/graduate-public-health-sciences.jpg",
+   "stats": [
+    "28% started in research & academia (9 of 32 grads, first job after graduating)",
+    "45% work in a different field today than their first job (9 of 20 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "graduate-religious-studies",
+   "level": "graduate",
+   "program": "Religious Studies",
+   "title": "Religious Studies (master’s & PhD) at Queen’s",
+   "ogTitle": "Religious Studies (master’s & PhD) at Queen’s: where 32 grads went",
+   "description": "22% of master’s & PhD grads in Religious Studies started in research & academia. 65% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Religious Studies (master’s & PhD) at Queen’s. 32 grads. 22% of master’s & PhD grads in Religious Studies started in research & academia. 65% work in a different field today than their first job.",
+   "href": "/twin?level=graduate&program=Religious+Studies",
+   "image": "/share/graduate-religious-studies.jpg",
+   "stats": [
+    "22% started in research & academia (7 of 32 grads, first job after graduating)",
+    "65% work in a different field today than their first job (11 of 17 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "undergrad-statistics",
+   "level": "undergrad",
+   "program": "Statistics",
+   "title": "Statistics (undergrad) at Queen’s",
+   "ogTitle": "Statistics (undergrad) at Queen’s: where 32 grads went",
+   "description": "16% of Statistics grads started in operations & management. 68% work in a different field today than their first job. 1 in 5 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Statistics (undergrad) at Queen’s. 32 grads. 16% of Statistics grads started in operations & management. 68% work in a different field today than their first job. 1 in 5 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Statistics",
+   "image": "/share/undergrad-statistics.jpg",
+   "stats": [
+    "16% started in operations & management (5 of 32 grads, first job after graduating)",
+    "68% work in a different field today than their first job (13 of 19 grads with a job at both points)",
+    "1 in 5 live outside Canada today (6 of 32 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "graduate-structural-engineering",
+   "level": "graduate",
+   "program": "Structural Engineering",
+   "title": "Structural Engineering at Queen’s",
+   "ogTitle": "Structural Engineering at Queen’s: where 32 grads went",
+   "description": "50% of master’s & PhD grads in Structural Engineering started in engineering. 45% work in a different field today than their first job. 1 in 5 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Structural Engineering at Queen’s. 32 grads. 50% of master’s & PhD grads in Structural Engineering started in engineering. 45% work in a different field today than their first job. 1 in 5 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Structural+Engineering",
+   "image": "/share/graduate-structural-engineering.jpg",
+   "stats": [
+    "50% started in engineering (16 of 32 grads, first job after graduating)",
+    "45% work in a different field today than their first job (13 of 29 grads with a job at both points)",
+    "1 in 5 live outside Canada today (6 of 32 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "graduate-digital-product-management",
+   "level": "graduate",
+   "program": "Digital Product Management",
+   "title": "Digital Product Management at Queen’s",
+   "ogTitle": "Digital Product Management at Queen’s: where 30 grads went",
+   "description": "50% of master’s & PhD grads in Digital Product Management started in tech. 23% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Digital Product Management at Queen’s. 30 grads. 50% of master’s & PhD grads in Digital Product Management started in tech. 23% work in a different field today than their first job.",
+   "href": "/twin?level=graduate&program=Digital+Product+Management",
+   "image": "/share/graduate-digital-product-management.jpg",
+   "stats": [
+    "50% started in tech (15 of 30 grads, first job after graduating)",
+    "23% work in a different field today than their first job (6 of 26 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "graduate-statistics",
+   "level": "graduate",
+   "program": "Statistics",
+   "title": "Statistics (master’s & PhD) at Queen’s",
+   "ogTitle": "Statistics (master’s & PhD) at Queen’s: where 30 grads went",
+   "description": "40% of master’s & PhD grads in Statistics started in tech. 32% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Statistics (master’s & PhD) at Queen’s. 30 grads. 40% of master’s & PhD grads in Statistics started in tech. 32% work in a different field today than their first job.",
+   "href": "/twin?level=graduate&program=Statistics",
+   "image": "/share/graduate-statistics.jpg",
+   "stats": [
+    "40% started in tech (12 of 30 grads, first job after graduating)",
+    "32% work in a different field today than their first job (7 of 22 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "undergrad-electrical-and-computer-engineering",
+   "level": "undergrad",
+   "program": "Electrical and Computer Engineering",
+   "title": "Electrical and Computer Engineering (undergrad) at Queen’s",
+   "ogTitle": "Electrical and Computer Engineering (undergrad) at Queen’s: where 29 grads went",
+   "description": "38% of Electrical and Computer Engineering grads started in engineering. 38% work in a different field today than their first job. 1 in 6 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Electrical and Computer Engineering (undergrad) at Queen’s. 29 grads. 38% of Electrical and Computer Engineering grads started in engineering. 38% work in a different field today than their first job. 1 in 6 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Electrical+and+Computer+Engineering",
+   "image": "/share/undergrad-electrical-and-computer-engineering.jpg",
+   "stats": [
+    "38% started in engineering (11 of 29 grads, first job after graduating)",
+    "38% work in a different field today than their first job (8 of 21 grads with a job at both points)",
+    "1 in 6 live outside Canada today (5 of 29 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "undergrad-engineering-mathematics",
+   "level": "undergrad",
+   "program": "Engineering Mathematics",
+   "title": "Engineering Mathematics at Queen’s",
+   "ogTitle": "Engineering Mathematics at Queen’s: where 28 grads went",
+   "description": "29% of Engineering Mathematics grads started in engineering. 60% work in a different field today than their first job. 1 in 6 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Engineering Mathematics at Queen’s. 28 grads. 29% of Engineering Mathematics grads started in engineering. 60% work in a different field today than their first job. 1 in 6 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Engineering+Mathematics",
+   "image": "/share/undergrad-engineering-mathematics.jpg",
+   "stats": [
+    "29% started in engineering (8 of 28 grads, first job after graduating)",
+    "60% work in a different field today than their first job (12 of 20 grads with a job at both points)",
+    "1 in 6 live outside Canada today (5 of 28 grads with a known location, 5 in the US)"
+   ]
+  },
+  {
+   "slug": "graduate-materials-engineering",
+   "level": "graduate",
+   "program": "Materials Engineering",
+   "title": "Materials Engineering at Queen’s",
+   "ogTitle": "Materials Engineering at Queen’s: where 28 grads went",
+   "description": "25% of master’s & PhD grads in Materials Engineering started in research & academia. 41% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Materials Engineering at Queen’s. 28 grads. 25% of master’s & PhD grads in Materials Engineering started in research & academia. 41% work in a different field today than their first job.",
+   "href": "/twin?level=graduate&program=Materials+Engineering",
+   "image": "/share/graduate-materials-engineering.jpg",
+   "stats": [
+    "25% started in research & academia (7 of 28 grads, first job after graduating)",
+    "41% work in a different field today than their first job (7 of 17 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "graduate-microbiology-and-immunology",
+   "level": "graduate",
+   "program": "Microbiology and Immunology",
+   "title": "Microbiology and Immunology at Queen’s",
+   "ogTitle": "Microbiology and Immunology at Queen’s: where 28 grads went",
+   "description": "79% of master’s & PhD grads in Microbiology and Immunology started in research & academia. 27% work in a different field today than their first job. 1 in 6 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Microbiology and Immunology at Queen’s. 28 grads. 79% of master’s & PhD grads in Microbiology and Immunology started in research & academia. 27% work in a different field today than their first job. 1 in 6 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Microbiology+and+Immunology",
+   "image": "/share/graduate-microbiology-and-immunology.jpg",
+   "stats": [
+    "79% started in research & academia (22 of 28 grads, first job after graduating)",
+    "27% work in a different field today than their first job (6 of 22 grads with a job at both points)",
+    "1 in 6 live outside Canada today (5 of 28 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "graduate-classics",
+   "level": "graduate",
+   "program": "Classics",
+   "title": "Classics (master’s & PhD) at Queen’s",
+   "ogTitle": "Classics (master’s & PhD) at Queen’s: where 27 grads went",
+   "description": "19% of master’s & PhD grads in Classics started in operations & management. 47% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Classics (master’s & PhD) at Queen’s. 27 grads. 19% of master’s & PhD grads in Classics started in operations & management. 47% work in a different field today than their first job.",
+   "href": "/twin?level=graduate&program=Classics",
+   "image": "/share/graduate-classics.jpg",
+   "stats": [
+    "19% started in operations & management (5 of 27 grads, first job after graduating)",
+    "47% work in a different field today than their first job (7 of 15 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "graduate-anatomical-sciences",
+   "level": "graduate",
+   "program": "Anatomical Sciences",
+   "title": "Anatomical Sciences at Queen’s",
+   "ogTitle": "Anatomical Sciences at Queen’s: where 26 grads went",
+   "description": "62% of master’s & PhD grads in Anatomical Sciences started in research & academia. 37% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Anatomical Sciences at Queen’s. 26 grads. 62% of master’s & PhD grads in Anatomical Sciences started in research & academia. 37% work in a different field today than their first job.",
+   "href": "/twin?level=graduate&program=Anatomical+Sciences",
+   "image": "/share/graduate-anatomical-sciences.jpg",
+   "stats": [
+    "62% started in research & academia (16 of 26 grads, first job after graduating)",
+    "37% work in a different field today than their first job (7 of 19 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "graduate-biomedical-and-molecular-sciences",
+   "level": "graduate",
+   "program": "Biomedical and Molecular Sciences",
+   "title": "Biomedical and Molecular Sciences at Queen’s",
+   "ogTitle": "Biomedical and Molecular Sciences at Queen’s: where 26 grads went",
+   "description": "46% of master’s & PhD grads in Biomedical and Molecular Sciences started in research & academia. 48% work in a different field today than their first job. 1 in 4 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Biomedical and Molecular Sciences at Queen’s. 26 grads. 46% of master’s & PhD grads in Biomedical and Molecular Sciences started in research & academia. 48% work in a different field today than their first job. 1 in 4 live outside Canada today.",
+   "href": "/twin?level=graduate&program=Biomedical+and+Molecular+Sciences",
+   "image": "/share/graduate-biomedical-and-molecular-sciences.jpg",
+   "stats": [
+    "46% started in research & academia (12 of 26 grads, first job after graduating)",
+    "48% work in a different field today than their first job (10 of 21 grads with a job at both points)",
+    "1 in 4 live outside Canada today (6 of 26 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "graduate-cell-biology",
+   "level": "graduate",
+   "program": "Cell Biology",
+   "title": "Cell Biology at Queen’s",
+   "ogTitle": "Cell Biology at Queen’s: where 26 grads went",
+   "description": "46% of master’s & PhD grads in Cell Biology started in research & academia. 30% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Cell Biology at Queen’s. 26 grads. 46% of master’s & PhD grads in Cell Biology started in research & academia. 30% work in a different field today than their first job.",
+   "href": "/twin?level=graduate&program=Cell+Biology",
+   "image": "/share/graduate-cell-biology.jpg",
+   "stats": [
+    "46% started in research & academia (12 of 26 grads, first job after graduating)",
+    "30% work in a different field today than their first job (6 of 20 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "undergrad-liberal-arts",
+   "level": "undergrad",
+   "program": "Liberal Arts",
+   "title": "Liberal Arts at Queen’s",
+   "ogTitle": "Liberal Arts at Queen’s: where 26 grads went",
+   "description": "23% of Liberal Arts grads started in operations & management. 24% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Liberal Arts at Queen’s. 26 grads. 23% of Liberal Arts grads started in operations & management. 24% work in a different field today than their first job.",
+   "href": "/twin?level=undergrad&program=Liberal+Arts",
+   "image": "/share/undergrad-liberal-arts.jpg",
+   "stats": [
+    "23% started in operations & management (6 of 26 grads, first job after graduating)",
+    "24% work in a different field today than their first job (5 of 21 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "undergrad-mathematics-and-computer-science",
+   "level": "undergrad",
+   "program": "Mathematics and Computer Science",
+   "title": "Mathematics and Computer Science at Queen’s",
+   "ogTitle": "Mathematics and Computer Science at Queen’s: where 26 grads went",
+   "description": "46% of Mathematics and Computer Science grads started in tech. Half work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Mathematics and Computer Science at Queen’s. 26 grads. 46% of Mathematics and Computer Science grads started in tech. Half work in a different field today than their first job.",
+   "href": "/twin?level=undergrad&program=Mathematics+and+Computer+Science",
+   "image": "/share/undergrad-mathematics-and-computer-science.jpg",
+   "stats": [
+    "46% started in tech (12 of 26 grads, first job after graduating)",
+    "Half work in a different field today than their first job (10 of 20 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "undergrad-languages-literatures-and-cultures",
+   "level": "undergrad",
+   "program": "Languages, Literatures and Cultures",
+   "title": "Languages, Literatures and Cultures at Queen’s",
+   "ogTitle": "Languages, Literatures and Cultures at Queen’s: where 25 grads went",
+   "description": "32% of Languages, Literatures and Cultures grads started in teaching. Half work in a different field today than their first job. 40% live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Languages, Literatures and Cultures at Queen’s. 25 grads. 32% of Languages, Literatures and Cultures grads started in teaching. Half work in a different field today than their first job. 40% live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Languages%2C+Literatures+and+Cultures",
+   "image": "/share/undergrad-languages-literatures-and-cultures.jpg",
+   "stats": [
+    "32% started in teaching (8 of 25 grads, first job after graduating)",
+    "Half work in a different field today than their first job (8 of 16 grads with a job at both points)",
+    "40% live outside Canada today (10 of 25 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "graduate-planning",
+   "level": "graduate",
+   "program": "Planning",
+   "title": "Planning at Queen’s",
+   "ogTitle": "Planning at Queen’s: where 25 grads went",
+   "description": "52% of master’s & PhD grads in Planning started in government & policy. 64% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Planning at Queen’s. 25 grads. 52% of master’s & PhD grads in Planning started in government & policy. 64% work in a different field today than their first job.",
+   "href": "/twin?level=graduate&program=Planning",
+   "image": "/share/graduate-planning.jpg",
+   "stats": [
+    "52% started in government & policy (13 of 25 grads, first job after graduating)",
+    "64% work in a different field today than their first job (16 of 25 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "graduate-astrophysics",
+   "level": "graduate",
+   "program": "Astrophysics",
+   "title": "Astrophysics at Queen’s",
+   "ogTitle": "Astrophysics at Queen’s: where 24 grads went",
+   "description": "38% of master’s & PhD grads in Astrophysics went straight on to more school. 29% live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Astrophysics at Queen’s. 24 grads. 38% of master’s & PhD grads in Astrophysics went straight on to more school. 29% live outside Canada today.",
+   "href": "/twin?level=graduate&program=Astrophysics",
+   "image": "/share/graduate-astrophysics.jpg",
+   "stats": [
+    "38% went straight on to more school (9 of 24 grads, first job after graduating)",
+    "29% live outside Canada today (7 of 24 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "undergrad-concurrent-education",
+   "level": "undergrad",
+   "program": "Concurrent Education",
+   "title": "Concurrent Education at Queen’s",
+   "ogTitle": "Concurrent Education at Queen’s: where 24 grads went",
+   "description": "54% of Concurrent Education grads started in teaching. 24% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Concurrent Education at Queen’s. 24 grads. 54% of Concurrent Education grads started in teaching. 24% work in a different field today than their first job.",
+   "href": "/twin?level=undergrad&program=Concurrent+Education",
+   "image": "/share/undergrad-concurrent-education.jpg",
+   "stats": [
+    "54% started in teaching (13 of 24 grads, first job after graduating)",
+    "24% work in a different field today than their first job (5 of 21 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "undergrad-computing-and-information-science",
+   "level": "undergrad",
+   "program": "Computing and Information Science",
+   "title": "Computing and Information Science at Queen’s",
+   "ogTitle": "Computing and Information Science at Queen’s: where 23 grads went",
+   "description": "48% of Computing and Information Science grads started in tech. 29% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Computing and Information Science at Queen’s. 23 grads. 48% of Computing and Information Science grads started in tech. 29% work in a different field today than their first job.",
+   "href": "/twin?level=undergrad&program=Computing+and+Information+Science",
+   "image": "/share/undergrad-computing-and-information-science.jpg",
+   "stats": [
+    "48% started in tech (11 of 23 grads, first job after graduating)",
+    "29% work in a different field today than their first job (5 of 17 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "undergrad-law",
+   "level": "undergrad",
+   "program": "Law",
+   "title": "Law (undergrad) at Queen’s",
+   "ogTitle": "Law (undergrad) at Queen’s: where 23 grads went",
+   "description": "48% of Law grads started in law. 1 in 3 live outside Canada today. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Law (undergrad) at Queen’s. 23 grads. 48% of Law grads started in law. 1 in 3 live outside Canada today.",
+   "href": "/twin?level=undergrad&program=Law",
+   "image": "/share/undergrad-law.jpg",
+   "stats": [
+    "48% started in law (11 of 23 grads, first job after graduating)",
+    "1 in 3 live outside Canada today (7 of 23 grads with a known location)"
+   ]
+  },
+  {
+   "slug": "undergrad-media-studies",
+   "level": "undergrad",
+   "program": "Media Studies",
+   "title": "Media Studies at Queen’s",
+   "ogTitle": "Media Studies at Queen’s: where 23 grads went",
+   "description": "43% of Media Studies grads started in sales & marketing. 71% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Media Studies at Queen’s. 23 grads. 43% of Media Studies grads started in sales & marketing. 71% work in a different field today than their first job.",
+   "href": "/twin?level=undergrad&program=Media+Studies",
+   "image": "/share/undergrad-media-studies.jpg",
+   "stats": [
+    "43% started in sales & marketing (10 of 23 grads, first job after graduating)",
+    "71% work in a different field today than their first job (10 of 14 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "graduate-organizational-behaviour",
+   "level": "graduate",
+   "program": "Organizational Behaviour",
+   "title": "Organizational Behaviour at Queen’s",
+   "ogTitle": "Organizational Behaviour at Queen’s: where 23 grads went",
+   "description": "35% of master’s & PhD grads in Organizational Behaviour went straight on to more school. 64% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Organizational Behaviour at Queen’s. 23 grads. 35% of master’s & PhD grads in Organizational Behaviour went straight on to more school. 64% work in a different field today than their first job.",
+   "href": "/twin?level=graduate&program=Organizational+Behaviour",
+   "image": "/share/graduate-organizational-behaviour.jpg",
+   "stats": [
+    "35% went straight on to more school (8 of 23 grads, first job after graduating)",
+    "64% work in a different field today than their first job (7 of 11 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "undergrad-outdoor-education",
+   "level": "undergrad",
+   "program": "Outdoor Education",
+   "title": "Outdoor Education at Queen’s",
+   "ogTitle": "Outdoor Education at Queen’s: where 23 grads went",
+   "description": "65% of Outdoor Education grads started in teaching. 59% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Outdoor Education at Queen’s. 23 grads. 65% of Outdoor Education grads started in teaching. 59% work in a different field today than their first job.",
+   "href": "/twin?level=undergrad&program=Outdoor+Education",
+   "image": "/share/undergrad-outdoor-education.jpg",
+   "stats": [
+    "65% started in teaching (15 of 23 grads, first job after graduating)",
+    "59% work in a different field today than their first job (10 of 17 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "undergrad-undeclared",
+   "level": "undergrad",
+   "program": "Undeclared",
+   "title": "Undeclared at Queen’s",
+   "ogTitle": "Undeclared at Queen’s: where 23 grads went",
+   "description": "22% of Undeclared grads started in sales & marketing. 47% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Undeclared at Queen’s. 23 grads. 22% of Undeclared grads started in sales & marketing. 47% work in a different field today than their first job.",
+   "href": "/twin?level=undergrad&program=Undeclared",
+   "image": "/share/undergrad-undeclared.jpg",
+   "stats": [
+    "22% started in sales & marketing (5 of 23 grads, first job after graduating)",
+    "47% work in a different field today than their first job (9 of 19 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "graduate-unspecified",
+   "level": "graduate",
+   "program": "Unspecified",
+   "title": "Unspecified at Queen’s",
+   "ogTitle": "Unspecified at Queen’s: where 23 grads went",
+   "description": "26% of master’s & PhD grads in Unspecified started in tech. 56% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Unspecified at Queen’s. 23 grads. 26% of master’s & PhD grads in Unspecified started in tech. 56% work in a different field today than their first job.",
+   "href": "/twin?level=graduate&program=Unspecified",
+   "image": "/share/graduate-unspecified.jpg",
+   "stats": [
+    "26% started in tech (6 of 23 grads, first job after graduating)",
+    "56% work in a different field today than their first job (10 of 18 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "undergrad-cognitive-science",
+   "level": "undergrad",
+   "program": "Cognitive Science",
+   "title": "Cognitive Science at Queen’s",
+   "ogTitle": "Cognitive Science at Queen’s: where 22 grads went",
+   "description": "36% of Cognitive Science grads started in tech. Half work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Cognitive Science at Queen’s. 22 grads. 36% of Cognitive Science grads started in tech. Half work in a different field today than their first job.",
+   "href": "/twin?level=undergrad&program=Cognitive+Science",
+   "image": "/share/undergrad-cognitive-science.jpg",
+   "stats": [
+    "36% started in tech (8 of 22 grads, first job after graduating)",
+    "Half work in a different field today than their first job (9 of 18 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "graduate-human-resources",
+   "level": "graduate",
+   "program": "Human Resources",
+   "title": "Human Resources at Queen’s",
+   "ogTitle": "Human Resources at Queen’s: where 22 grads went",
+   "description": "68% of master’s & PhD grads in Human Resources started in operations & management. 28% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Human Resources at Queen’s. 22 grads. 68% of master’s & PhD grads in Human Resources started in operations & management. 28% work in a different field today than their first job.",
+   "href": "/twin?level=graduate&program=Human+Resources",
+   "image": "/share/graduate-human-resources.jpg",
+   "stats": [
+    "68% started in operations & management (15 of 22 grads, first job after graduating)",
+    "28% work in a different field today than their first job (5 of 18 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "graduate-physiology",
+   "level": "graduate",
+   "program": "Physiology",
+   "title": "Physiology at Queen’s",
+   "ogTitle": "Physiology at Queen’s: where 22 grads went",
+   "description": "36% of master’s & PhD grads in Physiology started in research & academia. 91% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Physiology at Queen’s. 22 grads. 36% of master’s & PhD grads in Physiology started in research & academia. 91% work in a different field today than their first job.",
+   "href": "/twin?level=graduate&program=Physiology",
+   "image": "/share/graduate-physiology.jpg",
+   "stats": [
+    "36% started in research & academia (8 of 22 grads, first job after graduating)",
+    "91% work in a different field today than their first job (10 of 11 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "undergrad-applied-economics",
+   "level": "undergrad",
+   "program": "Applied Economics",
+   "title": "Applied Economics at Queen’s",
+   "ogTitle": "Applied Economics at Queen’s: where 21 grads went",
+   "description": "38% of Applied Economics grads started in finance & accounting. 41% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Applied Economics at Queen’s. 21 grads. 38% of Applied Economics grads started in finance & accounting. 41% work in a different field today than their first job.",
+   "href": "/twin?level=undergrad&program=Applied+Economics",
+   "image": "/share/undergrad-applied-economics.jpg",
+   "stats": [
+    "38% started in finance & accounting (8 of 21 grads, first job after graduating)",
+    "41% work in a different field today than their first job (7 of 17 grads with a job at both points)"
+   ]
+  },
+  {
+   "slug": "graduate-medicine",
+   "level": "graduate",
+   "program": "Medicine",
+   "title": "Medicine (master’s & PhD) at Queen’s",
+   "ogTitle": "Medicine (master’s & PhD) at Queen’s: where 20 grads went",
+   "description": "25% of master’s & PhD grads in Medicine started in healthcare. 54% work in a different field today than their first job. Groups only, from public LinkedIn profiles (Sep 2025).",
+   "alt": "Medicine (master’s & PhD) at Queen’s. 20 grads. 25% of master’s & PhD grads in Medicine started in healthcare. 54% work in a different field today than their first job.",
+   "href": "/twin?level=graduate&program=Medicine",
+   "image": "/share/graduate-medicine.jpg",
+   "stats": [
+    "25% started in healthcare (5 of 20 grads, first job after graduating)",
+    "54% work in a different field today than their first job (7 of 13 grads with a job at both points)"
+   ]
+  }
+ ]
+}

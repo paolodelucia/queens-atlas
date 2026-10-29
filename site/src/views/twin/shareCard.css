@@ -1,0 +1,85 @@
+/* The 1200x630 share card. Always the light theme (the card page sets data-theme="light");
+   tokens only, matching public/og.png: cream ground, ink outlines, a lilac blob, lime highlight. */
+
+.share-card {
+  position: relative;
+  width: 1200px;
+  height: 630px;
+  overflow: hidden;
+  padding: 44px 56px 36px;
+  display: flex;
+  flex-direction: column;
+  background: var(--page);
+  color: var(--ink-1);
+  font-family: var(--font-ui);
+  -webkit-font-smoothing: antialiased;
+}
+.share-card__blob {
+  position: absolute; right: -110px; top: -150px; width: 380px; height: 380px; border-radius: 50%;
+  background: var(--lilac); border: 3px solid var(--ink-1);
+}
+.share-card__dots {
+  position: absolute; right: 70px; top: 250px; width: 126px; height: 54px; opacity: 0.5;
+  background-image: radial-gradient(var(--ink-1) 2.2px, transparent 2.6px); background-size: 18px 18px;
+}
+
+.share-card__top { position: relative; display: flex; align-items: center; gap: 14px; }
+.share-card__brand {
+  display: inline-flex; align-items: center; gap: 12px;
+  font-family: var(--font-display); font-size: 36px; font-weight: 800; letter-spacing: -0.045em; line-height: 1;
+}
+.share-card__mark { transform: rotate(-6deg); }
+.share-card__tool {
+  padding: 5px 14px 4px; border: 2.5px solid var(--ink-1); border-radius: 999px; background: var(--surface-1);
+  font-size: 17px; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase;
+}
+
+.share-card__head { position: relative; margin-top: 30px; max-width: 870px; }
+.share-card__pill {
+  display: inline-block; margin: 0 0 12px; padding: 5px 16px 4px;
+  border: 2.5px solid var(--ink-1); border-radius: 999px; background: var(--lilac); color: var(--on-accent);
+  font-size: 20px; font-weight: 800; letter-spacing: 0.02em; line-height: 1.2;
+}
+.share-card__title {
+  margin: 0;
+  font-family: var(--font-display); font-size: 96px; font-weight: 800; letter-spacing: -0.05em; line-height: 0.98;
+  text-wrap: balance;
+}
+.share-card__at { white-space: nowrap; }
+.share-card__n {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 8px 18px;
+  margin: 14px 0 0; font-size: 26px; font-weight: 500; color: var(--ink-2); letter-spacing: -0.01em;
+}
+.share-card__n strong { color: var(--ink-1); font-weight: 800; }
+
+/* Stats: white zine cards in a row, pinned above the footer. */
+.share-card__stats {
+  position: relative;
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 26px;
+  margin: auto 0 0; padding: 0; list-style: none;
+}
+.share-card__stats--n1 { grid-template-columns: minmax(0, 520px); }
+.share-card__stats--n2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.share-card__stat {
+  padding: 18px 22px 18px;
+  border: 3px solid var(--ink-1); border-radius: 18px;
+  background: var(--surface-1);
+  box-shadow: 6px 6px 0 var(--ink-1);
+}
+.share-card .ui-stat__value { font-size: 58px; letter-spacing: -0.04em; }
+.share-card .ui-stat__label { margin-top: 10px; font-size: 21px; font-weight: 700; line-height: 1.2; text-wrap: balance; }
+.share-card .ui-stat__detail { margin-top: 6px; font-size: 15px; line-height: 1.3; color: var(--ink-2); text-wrap: pretty; }
+
+.share-card__foot {
+  position: relative;
+  display: flex; justify-content: space-between; gap: 24px;
+  margin-top: 26px; font-size: 16px; font-weight: 600; color: var(--ink-2);
+}
+.share-card__snap { white-space: nowrap; }
+/* No publishable stats: the footer still sits at the bottom. */
+.share-card__head + .share-card__foot { margin-top: auto; }
+.share-card__small {
+  display: inline-block; padding: 3px 12px 2px;
+  border: 2px dashed var(--ink-2); border-radius: 999px;
+  font-size: 17px; font-weight: 700; color: var(--ink-1);
+}

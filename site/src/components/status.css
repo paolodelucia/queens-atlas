@@ -1,0 +1,59 @@
+/* Loading / error / empty states in the zine look. (.btn now lives in ui/ui.css.) */
+
+.status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+  flex-direction: column;
+  min-height: 240px;
+  padding: var(--space-6) var(--gutter);
+  color: var(--ink-2);
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Loading: three outlined dots (lime, lilac, lime) that hop in turn. */
+.status__spinner { display: inline-flex; gap: 8px; }
+.status__spinner > span {
+  width: 14px;
+  height: 14px;
+  border: var(--outline-w) solid var(--outline);
+  border-radius: 50%;
+  background: var(--lime);
+  animation: status-hop 0.9s var(--ease) infinite;
+}
+.status__spinner > span:nth-child(2) { background: var(--lilac); animation-delay: 0.15s; }
+.status__spinner > span:nth-child(3) { animation-delay: 0.3s; }
+@keyframes status-hop {
+  0%, 60%, 100% { transform: translateY(0); }
+  30% { transform: translateY(-8px); }
+}
+@media (prefers-reduced-motion: reduce) { .status__spinner > span { animation: none; } }
+
+/* Error and empty: a card with a sticker on its corner. */
+.status__card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-4);
+  width: min(100%, 520px);
+  padding: var(--space-6) var(--space-5) var(--space-5);
+  background: var(--surface-1);
+  border: var(--outline-w) solid var(--outline);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-pop);
+  color: var(--ink-1);
+  font-weight: 400;
+}
+.status__card p { margin: 0; }
+.status__card strong { font-weight: var(--weight-display); }
+.status__sticker { position: absolute; top: -14px; left: 18px; }
+.status__card--empty {
+  border-style: dashed;
+  box-shadow: none;
+  background: transparent;
+  color: var(--ink-2);
+  font-weight: 600;
+}

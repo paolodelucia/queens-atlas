@@ -1,0 +1,140 @@
+/* App shell: zine header (wordmark, nav pills, theme toggle) and the minimal footer. */
+
+/* ── Header ─────────────────────────────────────────────────────────────── */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--page);
+  border-bottom: var(--outline-w) solid var(--outline);
+}
+.site-header__inner { display: flex; align-items: center; gap: var(--space-4); height: 68px; }
+
+.wordmark {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 2px 4px 2px 0;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-display);
+  font-size: 1.65rem;
+  font-weight: var(--weight-display);
+  letter-spacing: -0.045em;
+  line-height: 1;
+  color: var(--ink-1);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.wordmark__mark {
+  flex: none;
+  width: 34px;
+  height: 34px;
+  transform: rotate(-6deg);
+  transition: transform var(--dur-2) var(--ease-pop);
+}
+.wordmark:hover .wordmark__mark { transform: rotate(5deg) scale(1.06); }
+/* The mark keeps its own colours in both themes (dark ink on lime reads on any ground). */
+.brandmark__shadow { fill: var(--lilac); }
+.brandmark__tile { fill: var(--lime); stroke: var(--on-accent); }
+.brandmark__a { fill: var(--on-accent); }
+
+.site-header__nav { margin-left: auto; min-width: 0; }
+.site-nav { display: flex; gap: 6px; list-style: none; margin: 0; padding: 0; }
+.site-nav a {
+  display: flex;
+  align-items: center;
+  height: 38px;
+  padding: 0 14px;
+  border: var(--outline-w) solid transparent;
+  border-radius: var(--radius-pill);
+  background: none;
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--ink-1);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color var(--dur-1) var(--ease), border-color var(--dur-1) var(--ease);
+}
+.site-nav a:hover { border-color: var(--outline); background: var(--surface-1); }
+.site-nav a[aria-current='page'] {
+  border-color: var(--outline);
+  background: var(--selected);
+  color: var(--on-accent);
+  font-weight: var(--weight-display);
+  box-shadow: 2px 2px 0 var(--outline);
+}
+
+.theme-toggle {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: var(--outline-w) solid var(--outline);
+  border-radius: 50%;
+  background: var(--surface-1);
+  color: var(--ink-1);
+  box-shadow: 2px 2px 0 var(--shadow-ink);
+  cursor: pointer;
+  transition: background-color var(--dur-1) var(--ease), transform var(--dur-1) var(--ease);
+}
+.theme-toggle:hover { background: var(--lime); color: var(--on-accent); transform: rotate(-12deg); }
+
+@media (max-width: 640px) {
+  /* A two-row sticky header would eat 12% of a phone screen. */
+  .site-header { position: static; }
+  .site-header__inner { height: auto; flex-wrap: wrap; padding-top: 10px; padding-bottom: 10px; gap: var(--space-2); }
+  .wordmark { font-size: 1.5rem; }
+  .wordmark__mark { width: 30px; height: 30px; }
+  /* Wordmark and theme toggle share the first row; the nav gets a full-width second row. The
+     4px padding (cancelled by the margin) keeps focus rings inside the scroll box. */
+  .site-header__nav { order: 3; width: 100%; margin: 0; }
+  .site-nav { gap: 4px; margin: -4px; padding: 4px; overflow-x: auto; scrollbar-width: none; }
+  .site-nav::-webkit-scrollbar { display: none; }
+  .site-nav a { height: 44px; padding: 0 11px; }
+  .theme-toggle { margin-left: auto; width: 44px; height: 44px; }
+}
+
+main:focus { outline: none; }
+
+/* ── Footer (minimal) ───────────────────────────────────────────────────── */
+
+.site-footer {
+  margin-top: var(--space-9);
+  padding: var(--space-5) 0 var(--space-6);
+  border-top: var(--outline-w) solid var(--outline);
+  font-size: var(--text-sm);
+  color: var(--ink-2);
+}
+.site-footer__row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2) var(--space-5);
+}
+.site-footer__sig { margin: 0; font-weight: 600; color: var(--ink-1); }
+.site-footer__name {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: var(--weight-display);
+  letter-spacing: -0.04em;
+}
+.site-footer__links { display: flex; flex-wrap: wrap; gap: 0 var(--space-4); list-style: none; margin: 0; padding: 0; }
+.site-footer__links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  font-weight: 700;
+  color: var(--ink-1);
+  /* Keep the highlighter band under the text, not at the bottom of the taller tap target. */
+  background-position: 0 calc(50% + 0.3em);
+}
+.site-footer__fine { margin: var(--space-3) 0 0; max-width: 90ch; font-size: var(--text-xs); line-height: 1.5; color: var(--ink-3); }
+
+@media (max-width: 640px) {
+  .site-footer__row { flex-direction: column; align-items: flex-start; }
+  .site-footer__links a { min-height: 44px; }
+}

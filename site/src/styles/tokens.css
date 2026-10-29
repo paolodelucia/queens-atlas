@@ -1,0 +1,213 @@
+/*
+ * Design tokens: the "Campus zine" system. Every colour in the app is one of these variables.
+ *
+ * Loud, warm, made by a student for students: a cream ground, ink type, white cards with 2px ink
+ * outlines and solid offset shadows, and two UI accents, lime and lilac. Lime and lilac are for UI
+ * only (selected states, stickers, highlights, the primary button's shadow); they are never a data
+ * colour. Chart colours (--sector-*, --seq-*, --data-mono) are the validated colour-blind-safe
+ * palette, unchanged from before: light and dark steps are chosen per mode, never auto-inverted.
+ *
+ * Dark mode follows the OS unless the visitor picks a theme (html[data-theme]), which wins both
+ * ways. Contrast (WCAG): every --ink-* passes 4.5:1 on --page, --surface-1 and --surface-2 in its
+ * theme; --outline and --focus pass 3:1 on all three; text on lime or lilac is always
+ * --on-accent (>= 8:1).
+ *
+ * Token names used by views before the zine restyle (--page, --surface-*, --ink-*, --hairline,
+ * --border, --accent, --accent-ink, --focus, --shadow-*, --radius-*, ...) are kept and remapped.
+ */
+:root {
+  color-scheme: light;
+
+  /* Zine accents (UI only, never data). The same two in both themes. */
+  --lime: #d7f36b;
+  --lilac: #b9a6ff;
+  --on-accent: #1a1a1a;          /* text and icons on lime or lilac, both themes (14:1, 8.3:1) */
+  --on-accent-2: #3d3a33;        /* secondary text on lime or lilac (>= 4.5:1) */
+  --on-accent-surface: #ffffff;  /* button and chip faces on lime or lilac, both themes */
+  --on-accent-surface-2: #fff6e5;
+
+  /* Surfaces */
+  --page: #fff6e5;               /* cream ground */
+  --surface-1: #ffffff;          /* cards, chart surface */
+  --surface-2: #f7ecd4;          /* wells, hover washes, table stripes */
+  --surface-inverse: #1a1a1a;    /* ink band (hero, code); dark in both themes */
+  --invert-bg: #1a1a1a;          /* the "ink" card / button fill: ink in light, cream in dark */
+  --invert-fg: #fff6e5;
+  --invert-fg-2: #cdc3b0;
+  --invert-bg-2: #2e2b27;        /* hover wash on an inverted surface */
+  --invert-focus: var(--lilac);  /* focus ring on an inverted surface */
+
+  /* Ink */
+  --ink-1: #1a1a1a;
+  --ink-2: #4a443b;
+  --ink-3: #6b6253;              /* muted text that still passes 4.5:1 on --page and --surface-2 */
+  --ink-axis: #8c8373;           /* axis ticks and labels on charts (3:1 graphics) */
+  --ink-inverse: #fff6e5;        /* text on --surface-inverse */
+  --ink-inverse-2: #cdc3b0;
+
+  /* Lines */
+  --outline: #1a1a1a;            /* the zine outline: cards, pills, buttons, inputs */
+  --outline-w: 2px;
+  --hairline: #ebdfc6;           /* gridlines, quiet dividers */
+  --baseline: #c4b79c;           /* chart baselines */
+  --border: var(--outline);      /* legacy name: card and panel borders now take the outline */
+
+  /* Accent roles (UI only, never a data colour) */
+  --accent: var(--lime);         /* fills: rules, dots, primary button text, the highlight band */
+  --accent-2: var(--lilac);      /* fills: selected states, the primary button shadow */
+  --accent-ink: #5133c2;         /* accent-coloured text on page or cards (>= 6.8:1) */
+  --selected: var(--lilac);
+  --highlight: var(--lime);
+  --focus: #5b3fd6;              /* focus ring (>= 5.7:1 on every surface) */
+  --focus-ring: 3px solid var(--focus);
+
+  /* Links: ink text, a lime band under it, and a 2px rule that carries the cue without colour */
+  --link-band: var(--lime);
+  --link-line: #1a1a1a;
+
+  /* Data marks may take a thin outline in this style (bars, bubbles, legend swatches; not dense links). */
+  --mark-stroke: var(--outline);
+
+  /* Data: categorical sectors (slot order is part of the CVD check) */
+  --sector-1: #2a78d6;
+  --sector-2: #eb6834;
+  --sector-3: #1baf7a;
+  --sector-4: #eda100;
+  --sector-5: #e87ba4;
+  --sector-6: #008300;
+  --sector-7: #6250d6;
+  --sector-8: #e34948;
+  --sector-neutral: #b5b3ab;
+
+  /* Data: sequential (single hue, blue) */
+  --seq-100: #cde2fb; --seq-200: #9ec5f4; --seq-300: #6da7ec; --seq-400: #3987e5;
+  --seq-500: #256abf; --seq-600: #184f95; --seq-700: #0d366b;
+  /* Single-series magnitude bars (rankings, meters): one colour everywhere. */
+  --data-mono: var(--seq-600);
+
+  /* Type: one family, Bricolage Grotesque (variable: weight 200–800, optical size 12–96 applied
+     automatically from the font size). Display 800 with tight tracking; body 400–600. */
+  --font-ui: 'Bricolage Grotesque Variable', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-display: 'Bricolage Grotesque Variable', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --weight-display: 800;
+  --weight-strong: 700;
+  --tracking-display: -0.04em;   /* hero and H1 */
+  --tracking-tight: -0.025em;    /* H2, H3, big numbers */
+  --tracking-caps: 0.06em;       /* small uppercase labels */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.375rem;
+  --text-2xl: clamp(1.7rem, 1.2rem + 2vw, 2.5rem);
+  --text-hero: clamp(2.6rem, 1.2rem + 5.6vw, 5.75rem);
+  --text-display-tool: clamp(2.2rem, 1.3rem + 2.8vw, 3.75rem);   /* H1 on tool pages */
+  --text-stat: clamp(2.4rem, 1.6rem + 3vw, 4.25rem);             /* StatBlock numbers */
+
+  /* Space & shape */
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px; --space-5: 24px;
+  --space-6: 32px; --space-7: 48px; --space-8: 72px; --space-9: 112px;
+  --radius-sm: 8px; --radius-md: 12px; --radius-lg: 18px;
+  --radius-card: 18px;
+  --radius-pill: 999px;
+
+  /* Shadows: solid offset "print" shadows, no blur */
+  --shadow-ink: #1a1a1a;         /* card shadow colour (a muted lilac in dark) */
+  --shadow-pop: 5px 5px 0 var(--shadow-ink);        /* cards */
+  --shadow-pop-sm: 3px 3px 0 var(--shadow-ink);     /* pills, buttons, small chips */
+  --shadow-pop-lilac: 3px 3px 0 var(--lilac);       /* the primary button */
+  --shadow-1: var(--shadow-pop-sm);                 /* legacy: resting cards */
+  --shadow-2: var(--shadow-pop);                    /* legacy: popovers, lifted cards */
+
+  --content: 1180px;
+  --gutter: clamp(16px, 4vw, 40px);
+
+  /* Motion */
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-pop: cubic-bezier(0.34, 1.56, 0.64, 1);    /* a small overshoot for presses and stickers */
+  --dur-1: 140ms; --dur-2: 260ms; --dur-3: 520ms;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme='light'])) {
+    color-scheme: dark;
+    --page: #141312;
+    --surface-1: #1e1c1a;
+    --surface-2: #2a2724;
+    --surface-inverse: #0a0908;
+    --invert-bg: #fff6e5;
+    --invert-fg: #1a1a1a;
+    --invert-fg-2: #4a443b;
+    --invert-bg-2: #efe2c6;
+    --invert-focus: #5b3fd6;
+    --ink-1: #fff6e5;
+    --ink-2: #dcd2c0;
+    --ink-3: #ada392;
+    --ink-axis: #8a8172;
+    --ink-inverse: #fff6e5;
+    --ink-inverse-2: #cdc3b0;
+    --outline: #e9dfcb;
+    --hairline: #34302b;
+    --baseline: #4d473f;
+    --accent-ink: #c3b4ff;
+    --focus: #b9a6ff;
+    --link-band: color-mix(in srgb, var(--lime) 18%, transparent);
+    --link-line: var(--lime);
+    --shadow-ink: #5a4e8c;
+    --sector-1: #3987e5;
+    --sector-2: #d95926;
+    --sector-3: #199e70;
+    --sector-4: #c98500;
+    --sector-5: #d55181;
+    --sector-6: #008300;
+    --sector-7: #9085e9;
+    --sector-8: #e66767;
+    --sector-neutral: #7a7972;
+    --seq-100: #104281; --seq-200: #184f95; --seq-300: #256abf; --seq-400: #2a78d6;
+    --seq-500: #5598e7; --seq-600: #86b6ef; --seq-700: #b7d3f6;
+    --data-mono: var(--seq-600);
+  }
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --page: #141312;
+  --surface-1: #1e1c1a;
+  --surface-2: #2a2724;
+  --surface-inverse: #0a0908;
+  --invert-bg: #fff6e5;
+  --invert-fg: #1a1a1a;
+  --invert-fg-2: #4a443b;
+  --invert-bg-2: #efe2c6;
+  --invert-focus: #5b3fd6;
+  --ink-1: #fff6e5;
+  --ink-2: #dcd2c0;
+  --ink-3: #ada392;
+  --ink-axis: #8a8172;
+  --ink-inverse: #fff6e5;
+  --ink-inverse-2: #cdc3b0;
+  --outline: #e9dfcb;
+  --hairline: #34302b;
+  --baseline: #4d473f;
+  --accent-ink: #c3b4ff;
+  --focus: #b9a6ff;
+  --link-band: color-mix(in srgb, var(--lime) 18%, transparent);
+  --link-line: var(--lime);
+  --shadow-ink: #5a4e8c;
+  --sector-1: #3987e5;
+  --sector-2: #d95926;
+  --sector-3: #199e70;
+  --sector-4: #c98500;
+  --sector-5: #d55181;
+  --sector-6: #008300;
+  --sector-7: #9085e9;
+  --sector-8: #e66767;
+  --sector-neutral: #7a7972;
+  --seq-100: #104281; --seq-200: #184f95; --seq-300: #256abf; --seq-400: #2a78d6;
+  --seq-500: #5598e7; --seq-600: #86b6ef; --seq-700: #b7d3f6;
+  --data-mono: var(--seq-600);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root { --dur-1: 0ms; --dur-2: 0ms; --dur-3: 0ms; }
+}

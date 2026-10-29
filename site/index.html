@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atlas: where 92,000 Queen’s grads actually end up</title>
+    <meta name="description" content="An interactive look at where 92,000 Queen’s University alumni careers go: where each program’s grads start, where they are ten years later, and where in the world they live. Groups only, no individuals. An independent student project, not affiliated with Queen’s University." />
+    <!-- Browser chrome colour: the page colour of each theme (Layout keeps it in step with a manual theme choice). -->
+    <meta name="theme-color" content="#fff6e5" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#141312" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Atlas" />
+    <meta property="og:title" content="Atlas" />
+    <meta property="og:description" content="Where 92,000 Queen’s University grads actually end up, from first job to today. Groups only, from a September 2025 snapshot of public LinkedIn profiles." />
+    <!-- og:image / twitter:image are made absolute at build time from SITE_URL (vite.config.ts) -->
+    <meta property="og:image" content="/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Atlas: Where do 92,000 Queen’s grads actually end up? With the headline numbers on stickers." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Atlas" />
+    <meta name="twitter:description" content="Where 92,000 Queen’s University grads actually end up, from first job to today." />
+    <meta name="twitter:image" content="/og.png" />
+    <script>
+      try {
+        var t = localStorage.getItem('theme');
+        if (t === 'light' || t === 'dark') {
+          document.documentElement.dataset.theme = t;
+          var c = t === 'dark' ? '#141312' : '#fff6e5';
+          document.querySelectorAll('meta[name="theme-color"]').forEach(function (m) { m.setAttribute('content', c); });
+        }
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>Atlas needs JavaScript to draw its charts.</noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,213 @@
+/*
+ * Shared zine primitives: Card, Sticker, Highlight, StatBlock, SectionHeading, Button/LinkButton.
+ * Colours come only from tokens.css. Lime and lilac are UI accents, never data colours.
+ */
+
+/* ── Card ───────────────────────────────────────────────────────────────── */
+
+.ui-card {
+  position: relative;
+  min-width: 0;
+  padding: var(--space-4);
+  background: var(--surface-1);
+  color: var(--ink-1);
+  border: var(--outline-w) solid var(--outline);
+  border-radius: var(--radius-card);
+  box-shadow: 5px 5px 0 var(--ui-card-shadow, var(--shadow-ink));
+}
+@media (min-width: 640px) {
+  .ui-card { padding: var(--space-5); }
+}
+.ui-card--pad-none { padding: 0; }
+.ui-card--pad-sm { padding: var(--space-3); }
+.ui-card--pad-lg { padding: var(--space-5); }
+@media (min-width: 640px) {
+  .ui-card--pad-none { padding: 0; }
+  .ui-card--pad-sm { padding: var(--space-4); }
+  .ui-card--pad-lg { padding: var(--space-6); }
+}
+.ui-card > :last-child { margin-bottom: 0; }
+
+/* Accent cards: everything inside reads as dark ink, in both themes. */
+.ui-card--lime,
+.ui-card--lilac {
+  --ink-1: var(--on-accent);
+  --ink-2: var(--on-accent-2);
+  --ink-3: var(--on-accent-2);
+  --accent-ink: var(--on-accent);
+  --focus: var(--on-accent);
+  --link-line: var(--on-accent);
+  --link-band: transparent;      /* the 2px ink underline carries the link on an accent fill */
+  --surface-1: var(--on-accent-surface);   /* buttons and chips inside stay light in both themes */
+  --surface-2: var(--on-accent-surface-2);
+  --shadow-ink: var(--on-accent);
+}
+.ui-card--lime *,
+.ui-card--lilac * { --outline: var(--on-accent); }
+.ui-card--lime { background: var(--lime); }
+.ui-card--lilac { background: var(--lilac); }
+
+/* Ink card: inverted (ink in light, cream in dark), lilac shadow. Descendants see inverted tokens. */
+.ui-card--ink {
+  --ink-1: var(--invert-fg);
+  --ink-2: var(--invert-fg-2);
+  --ink-3: var(--invert-fg-2);
+  --accent-ink: var(--invert-fg);
+  --focus: var(--invert-focus);
+  --link-line: currentColor;
+  --link-band: transparent;
+  --ui-card-shadow: var(--lilac);
+  --surface-1: var(--invert-bg);           /* buttons and chips inside sit on the inverted fill */
+  --surface-2: var(--invert-bg-2);
+  background: var(--invert-bg);
+  border-color: var(--invert-bg);
+}
+.ui-card--ink * { --outline: var(--invert-fg); }
+
+.ui-card--flat { box-shadow: none; }
+
+/* A card that is one big link: put .ui-card__link on the link; the whole card is the target. */
+.ui-card--interactive {
+  transition: transform var(--dur-1) var(--ease), box-shadow var(--dur-1) var(--ease);
+}
+.ui-card--interactive:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 7px 7px 0 var(--ui-card-shadow, var(--shadow-ink));
+}
+.ui-card--interactive:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 var(--ui-card-shadow, var(--shadow-ink));
+}
+.ui-card--interactive:has(:focus-visible) { outline: var(--focus-ring); outline-offset: 3px; }
+.ui-card__link { color: inherit; text-decoration: none; }
+.ui-card__link::after { content: ''; position: absolute; inset: 0; border-radius: inherit; }
+.ui-card__link:focus-visible { outline: none; }
+
+/* ── Sticker ────────────────────────────────────────────────────────────── */
+
+.ui-sticker {
+  display: inline-block;
+  max-width: min(30ch, 100%);
+  padding: 4px 11px 3px;
+  border: var(--outline-w) solid var(--outline);
+  border-radius: var(--radius-sm);
+  background: var(--lime);
+  color: var(--on-accent);
+  box-shadow: 3px 3px 0 var(--shadow-ink);
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -0.005em;
+  text-align: center;
+  text-wrap: balance;
+  transform: rotate(var(--ui-tilt, -6deg));
+  transform-origin: 50% 50%;
+}
+p.ui-sticker, div.ui-sticker { width: fit-content; margin: 0; }
+.ui-sticker--lilac { background: var(--lilac); }
+
+/* ── Highlight ──────────────────────────────────────────────────────────── */
+
+.ui-hl {
+  padding: 0 0.14em;
+  border-radius: 0.16em;
+  background: var(--lime);
+  color: var(--on-accent);
+  font-weight: inherit;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+.ui-hl--lilac { background: var(--lilac); }
+
+/* ── StatBlock ──────────────────────────────────────────────────────────── */
+
+.ui-stat { display: flex; flex-direction: column; align-items: flex-start; min-width: 0; }
+.ui-stat__value {
+  font-family: var(--font-display);
+  font-size: var(--text-stat);
+  font-weight: var(--weight-display);
+  line-height: 1;
+  letter-spacing: var(--tracking-display);
+  color: var(--ink-1);
+}
+.ui-stat--md .ui-stat__value { font-size: clamp(1.8rem, 1.4rem + 1.4vw, 2.6rem); letter-spacing: var(--tracking-tight); }
+.ui-stat__label { margin-top: var(--space-2); font-size: var(--text-md); font-weight: var(--weight-strong); line-height: 1.3; color: var(--ink-1); }
+.ui-stat__detail { margin-top: 2px; font-size: var(--text-sm); line-height: 1.4; color: var(--ink-3); }
+
+/* ── SectionHeading ─────────────────────────────────────────────────────── */
+
+.ui-heading { display: flex; flex-direction: column; align-items: flex-start; gap: var(--space-3); margin-bottom: var(--space-5); }
+.ui-heading > * { margin: 0; }
+.ui-heading__title { max-width: 100%; }
+.ui-heading--hero .ui-heading__title { font-size: var(--text-hero); letter-spacing: var(--tracking-display); line-height: 0.96; }
+.ui-heading--page .ui-heading__title { font-size: var(--text-display-tool); letter-spacing: var(--tracking-display); line-height: 1; }
+.ui-heading--section .ui-heading__title { font-size: var(--text-2xl); }
+.ui-heading__eyebrow--lime,
+.ui-heading__eyebrow--lilac { color: var(--on-accent); border-color: var(--outline); }
+.ui-heading__eyebrow--lime { background: var(--lime); }
+.ui-heading__eyebrow--lilac { background: var(--lilac); }
+.ui-heading__dek { max-width: 62ch; font-size: var(--text-lg); font-weight: 450; line-height: 1.5; color: var(--ink-2); }
+.ui-heading__dek > :last-child { margin-bottom: 0; }
+
+/* ── Button / LinkButton (.btn is also the legacy class some views use) ─── */
+
+.btn {
+  --btn-h: 44px;
+  --btn-shadow: var(--shadow-ink);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  min-height: var(--btn-h);
+  padding: 0 18px;
+  border: var(--outline-w) solid var(--outline);
+  border-radius: var(--radius-pill);
+  background: var(--surface-1);
+  color: var(--ink-1);
+  box-shadow: 3px 3px 0 var(--btn-shadow);
+  font-family: var(--font-ui);
+  font-size: var(--text-md);
+  font-weight: var(--weight-strong);
+  line-height: 1.15;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  transition:
+    transform var(--dur-1) var(--ease),
+    box-shadow var(--dur-1) var(--ease),
+    background-color var(--dur-1) var(--ease);
+}
+.btn:hover { transform: translate(-1px, -1px); box-shadow: 4px 4px 0 var(--btn-shadow); background: var(--surface-2); }
+.btn:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--btn-shadow); }
+.btn svg { flex: none; }
+
+.btn--primary {
+  --btn-shadow: var(--lilac);
+  background: var(--surface-inverse);
+  color: var(--lime);
+  font-weight: var(--weight-display);
+}
+.btn--primary:hover { background: var(--surface-inverse); }
+
+.btn--sm { --btn-h: 36px; padding: 0 14px; font-size: var(--text-sm); }
+.btn--lg { --btn-h: 52px; padding: 0 24px; font-size: var(--text-lg); }
+.btn--block { display: flex; width: 100%; }
+
+.btn:disabled,
+.btn[aria-disabled='true'] {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+@media (max-width: 639.98px) {
+  .btn--sm { --btn-h: 44px; }
+}
+
+@media (forced-colors: active) {
+  .btn, .ui-card, .ui-sticker { border-color: CanvasText; }
+  .ui-hl { forced-color-adjust: none; background: Mark; color: MarkText; }
+}

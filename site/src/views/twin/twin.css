@@ -1,0 +1,386 @@
+/* Career Twin, in the Campus zine style. Only design tokens from styles/tokens.css; every class is
+   prefixed twin-. Shared primitives (Card, StatBlock, Sticker, Highlight) and controls (Segmented,
+   ProgramPicker, Toggle, CopyLink) style themselves; this file lays them out and draws the view's
+   own pieces. Lime and lilac are UI only: charts use --sector-*, --seq-* and --data-mono. */
+
+.twin { padding-top: var(--space-6); padding-bottom: var(--space-8); }
+.twin-head { margin-bottom: var(--space-5); }
+
+/* ── Mode switch: two large radio pills ──────────────────────────────────── */
+.twin-modes {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-4);
+  max-width: 760px; margin: 0 0 var(--space-6); padding: 0; border: 0; min-width: 0;
+}
+.twin-modes__opt { position: relative; display: block; min-width: 0; }
+.twin-modes__opt input { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; opacity: 0; cursor: pointer; z-index: 1; }
+.twin-modes__face {
+  position: relative;
+  display: grid; grid-template-columns: auto minmax(0, 1fr); column-gap: 14px; align-items: center;
+  min-height: 76px; padding: 14px 20px 14px 16px;
+  border: var(--outline-w) solid var(--outline); border-radius: var(--radius-card);
+  background: var(--surface-1); color: var(--ink-1);
+  box-shadow: 3px 3px 0 var(--shadow-ink);
+  transition: transform var(--dur-1) var(--ease), box-shadow var(--dur-1) var(--ease), background-color var(--dur-1) var(--ease);
+}
+/* The radio dot: an outlined ring that fills when chosen. */
+.twin-modes__face::before {
+  content: ''; grid-row: 1 / span 2; width: 22px; height: 22px; border-radius: 50%;
+  border: var(--outline-w) solid var(--outline); background: var(--surface-1);
+  box-shadow: inset 0 0 0 4px var(--surface-1);
+  transition: background-color var(--dur-1) var(--ease);
+}
+.twin-modes__label { font-family: var(--font-display); font-size: var(--text-xl); font-weight: var(--weight-display); letter-spacing: var(--tracking-tight); line-height: 1.1; }
+.twin-modes__hint { grid-column: 2; font-size: var(--text-sm); color: var(--ink-2); line-height: 1.35; }
+.twin-modes__opt:hover input:not(:checked) + .twin-modes__face { transform: translate(-1px, -1px); box-shadow: 4px 4px 0 var(--shadow-ink); background: var(--surface-2); }
+.twin-modes__opt input:checked + .twin-modes__face {
+  background: var(--selected); color: var(--on-accent);
+  box-shadow: 5px 5px 0 var(--shadow-ink);
+}
+.twin-modes__opt input:checked + .twin-modes__face::before { background: var(--on-accent); border-color: var(--on-accent); box-shadow: inset 0 0 0 4px var(--lime); }
+.twin-modes__opt input:checked + .twin-modes__face .twin-modes__hint { color: var(--on-accent-2); }
+.twin-modes__opt input:focus-visible + .twin-modes__face { outline: var(--focus-ring); outline-offset: 3px; }
+
+/* ── Notes about ignored answers ─────────────────────────────────────────── */
+.twin-note {
+  margin-bottom: var(--space-5);
+  padding: var(--space-3) var(--space-4);
+  border: var(--outline-w) dashed var(--outline); border-radius: var(--radius-md);
+  background: var(--surface-1); color: var(--ink-2); font-size: var(--text-sm);
+}
+.twin-note ul { margin: 0; padding: 0; list-style: none; display: grid; gap: var(--space-1); }
+
+/* ── Forms ───────────────────────────────────────────────────────────────── */
+.twin-form { display: grid; gap: var(--space-4); }
+.twin-form > form { display: grid; gap: var(--space-5); min-width: 0; }
+.twin-form__h { font-size: var(--text-xl); margin: 0; }
+.twin-form__row { display: flex; flex-wrap: wrap; align-items: flex-start; gap: var(--space-4) var(--space-5); }
+.twin-form__program { flex: 1 1 240px; max-width: 380px; min-width: 0; }
+.twin-form__year { flex: none; }
+.twin-hint { margin: 8px 0 0; max-width: 34ch; font-size: var(--text-xs); line-height: 1.4; color: var(--ink-3); }
+.twin-optional { font-weight: 600; letter-spacing: 0; text-transform: none; color: var(--ink-3); }
+
+/* Year: a plain input dressed like the shared controls (--ctl-h comes from .field). */
+.twin-year {
+  width: 124px; height: var(--ctl-h); padding: 0 16px;
+  border: var(--outline-w) solid var(--outline); border-radius: var(--radius-pill);
+  background: var(--surface-1); color: var(--ink-1);
+  box-shadow: 3px 3px 0 var(--shadow-ink);
+  font-size: var(--text-sm); font-weight: 700; font-variant-numeric: tabular-nums; letter-spacing: 0.04em;
+  transition: box-shadow var(--dur-1) var(--ease);
+}
+.twin-year::placeholder { color: var(--ink-3); font-weight: 500; letter-spacing: 0; opacity: 1; }
+.twin-year:hover { box-shadow: 4px 4px 0 var(--shadow-ink); }
+.twin-year:focus-visible { outline: var(--focus-ring); outline-offset: 2px; }
+
+/* Radio chips (first job): outlined pills, lilac when chosen, like the Segmented options. */
+.twin-choice { min-width: 0; }
+.twin-chips { display: flex; flex-wrap: wrap; gap: 10px var(--space-2); }
+.twin-chip { position: relative; display: inline-flex; }
+.twin-chip input { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; opacity: 0; cursor: pointer; }
+.twin-chip span {
+  display: inline-flex; align-items: center; gap: 7px;
+  min-height: 36px; padding: 5px 14px;
+  border: var(--outline-w) solid var(--outline); border-radius: var(--radius-pill);
+  background: var(--surface-1); color: var(--ink-1);
+  font-size: var(--text-sm); font-weight: 600; line-height: 1.2;
+  pointer-events: none;
+  transition: background-color var(--dur-1) var(--ease), box-shadow var(--dur-1) var(--ease);
+}
+.twin-chip:hover span { background: var(--surface-2); }
+.twin-chip input:checked + span { background: var(--selected); color: var(--on-accent); font-weight: 800; box-shadow: 2px 2px 0 var(--outline); }
+.twin-chip input:focus-visible + span { outline: var(--focus-ring); outline-offset: 2px; }
+.twin-chip--muted span { border-style: dashed; color: var(--ink-2); }
+.twin-dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; flex: none; box-shadow: 0 0 0 1px var(--mark-stroke); }
+
+/* ── Empty states ────────────────────────────────────────────────────────── */
+.twin-anchor { scroll-margin-top: 80px; }
+.twin-empty { margin-top: var(--space-6); text-align: center; }
+.twin-empty__progress { display: flex; justify-content: center; gap: 6px; margin-bottom: var(--space-4); }
+.twin-empty__progress span {
+  width: 30px; height: 8px; border-radius: var(--radius-pill);
+  border: var(--outline-w) solid var(--outline); background: var(--surface-1);
+  transition: background-color var(--dur-2) var(--ease);
+}
+.twin-empty__progress span.is-on { background: var(--lime); }
+.twin-empty__title { font-size: var(--text-2xl); margin-bottom: var(--space-3); }
+.twin-empty__lede { max-width: 60ch; margin: 0 auto var(--space-5); color: var(--ink-2); }
+.twin-examples { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-3); margin: 0; padding: 0; list-style: none; }
+.twin-example {
+  display: inline-flex; align-items: center; gap: 8px;
+  min-height: 40px; padding: 5px 16px 5px 6px;
+  border: var(--outline-w) solid var(--outline); border-radius: var(--radius-pill);
+  background: var(--surface-1); color: var(--ink-1); box-shadow: 3px 3px 0 var(--shadow-ink);
+  cursor: pointer; font-size: var(--text-sm); font-weight: 700;
+  transition: transform var(--dur-1) var(--ease), box-shadow var(--dur-1) var(--ease), background-color var(--dur-1) var(--ease);
+}
+.twin-example:hover { transform: translate(-1px, -1px); box-shadow: 4px 4px 0 var(--shadow-ink); background: var(--lime); color: var(--on-accent); }
+.twin-example:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--shadow-ink); }
+.twin-example__try {
+  padding: 3px 9px; border-radius: var(--radius-pill);
+  background: var(--invert-bg); color: var(--invert-fg);
+  font-size: var(--text-xs); font-weight: 800; letter-spacing: var(--tracking-caps); text-transform: uppercase;
+}
+
+/* ── Results: hero (an ink card) ─────────────────────────────────────────── */
+.twin-results { margin-top: var(--space-6); animation: twin-rise var(--dur-3) var(--ease) both; }
+.twin-hero { scroll-margin-top: 80px; }
+.twin-hero__eyebrow { margin-bottom: var(--space-4); }
+.twin-hero__title {
+  margin: 0 0 var(--space-3);
+  font-size: clamp(2.3rem, 1.3rem + 3.6vw, 4.25rem); letter-spacing: var(--tracking-display); line-height: 0.98;
+  color: var(--ink-1); text-wrap: balance;
+}
+.twin-hero__title:focus { outline: none; }
+.twin-hero__title:focus-visible { outline: var(--focus-ring); outline-offset: 6px; border-radius: var(--radius-sm); }
+.twin-hero__desc { max-width: 62ch; margin-bottom: var(--space-5); font-size: var(--text-lg); line-height: 1.45; color: var(--ink-2); }
+.twin-badge {
+  display: inline-block; margin: 0 0 var(--space-3); padding: 3px 12px;
+  border: var(--outline-w) solid var(--on-accent); border-radius: var(--radius-pill);
+  background: var(--lilac); color: var(--on-accent);
+  font-size: var(--text-sm); font-weight: 800; line-height: 1.35;
+}
+.twin-hero__privacy { max-width: 76ch; margin: 0; font-size: var(--text-sm); color: var(--ink-3); }
+.twin-small { color: var(--ink-1); font-weight: 800; }
+
+.twin-stats {
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-5);
+  margin: 0 0 var(--space-5); padding: 0; list-style: none;
+}
+.twin-stats--n1 { grid-template-columns: minmax(0, 1fr); max-width: 460px; }
+.twin-stats--n2, .twin-stats--n4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.twin-stats > li { padding-top: var(--space-3); border-top: var(--outline-w) solid var(--ink-3); animation: twin-rise var(--dur-3) var(--ease) both; }
+.twin-stats > li:nth-child(2) { animation-delay: 60ms; }
+.twin-stats > li:nth-child(3) { animation-delay: 120ms; }
+.twin-stats > li:nth-child(4) { animation-delay: 180ms; }
+.twin-stats .ui-stat__label { font-size: var(--text-md); }
+
+/* Under the hero: copy link and the River. */
+.twin-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-3) var(--space-5); margin: var(--space-5) 0 var(--space-5); }
+.twin-toolbar__river { margin: 0; font-weight: 700; }
+
+/* ── Sections ────────────────────────────────────────────────────────────── */
+.twin-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-5); }
+.twin-grid--student {
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  grid-template-areas: 'stop emp' 'stop cta' 'path path';
+  grid-template-rows: auto 1fr auto;
+}
+.twin-grid--student .twin-sec--stop { grid-area: stop; }
+.twin-grid--student .twin-sec--emp { grid-area: emp; }
+.twin-grid--student .twin-cta { grid-area: cta; align-self: start; }
+.twin-grid--student .twin-path { grid-area: path; }
+.twin-cta h3 { font-size: var(--text-xl); margin-bottom: var(--space-2); }
+.twin-cta p { margin-bottom: var(--space-4); font-size: var(--text-sm); color: var(--ink-1); }
+.twin-sec { animation: twin-rise var(--dur-3) var(--ease) both; }
+.twin-sec--wide { grid-column: 1 / -1; }
+.twin-sec h3 { font-size: var(--text-xl); margin-bottom: var(--space-1); }
+.twin-sec__head { display: flex; justify-content: space-between; align-items: flex-start; gap: var(--space-3) var(--space-4); flex-wrap: wrap; margin-bottom: var(--space-3); }
+.twin-sec__head > div { flex: 1 1 260px; min-width: 0; }
+.twin-sec__head .twin-sec__sub { margin-bottom: 0; }
+.twin-sec__sub { margin: 0 0 var(--space-4); max-width: 66ch; font-size: var(--text-sm); color: var(--ink-3); }
+.twin-notes { margin: var(--space-4) 0 0; padding: 0; list-style: none; display: grid; gap: var(--space-1); font-size: var(--text-xs); color: var(--ink-3); }
+.twin-muted { color: var(--ink-3); font-weight: 400; }
+.twin-more { margin-top: var(--space-4); }
+
+/* A sticker is slapped on the top edge of the card it annotates, clear of the card's content. */
+.twin-sticker { position: absolute; z-index: 2; top: -19px; right: var(--space-5); max-width: min(26ch, calc(100% - 2 * var(--space-5))); pointer-events: none; }
+/* The first-stop card keeps its top-right corner for the "Recent classes only" switch. */
+.twin-sec--stop .twin-sticker { right: max(var(--space-5), 36%); }
+
+/* First employers as chips. */
+.twin-emp { display: flex; flex-wrap: wrap; gap: 10px; margin: 0; padding: 0; list-style: none; }
+.twin-emp__chip {
+  display: inline-flex; align-items: baseline; gap: 8px;
+  padding: 6px 14px; border: var(--outline-w) solid var(--outline); border-radius: var(--radius-pill);
+  background: var(--surface-1); box-shadow: 2px 2px 0 var(--shadow-ink);
+  font-size: var(--text-md); font-weight: 750; line-height: 1.25;
+}
+.twin-emp__chip:first-child { font-size: var(--text-lg); }
+.twin-emp__pct { font-size: var(--text-sm); font-weight: 600; color: var(--ink-3); }
+
+/* Pick a first job. */
+.twin-path__chips { margin-bottom: var(--space-5); }
+.twin-path__body { padding-top: var(--space-5); border-top: var(--outline-w) dashed var(--hairline); }
+.twin-path__title { margin: 0 0 var(--space-2); font-family: var(--font-display); font-size: var(--text-lg); font-weight: var(--weight-display); letter-spacing: var(--tracking-tight); }
+.twin-path__notes { margin: 0 0 var(--space-3); padding: 0; list-style: none; display: grid; gap: 2px; font-size: var(--text-sm); color: var(--ink-2); }
+.twin-path__stats {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-5);
+  margin: var(--space-5) 0 0; padding: 0; list-style: none;
+}
+.twin-path__stats > li { padding-top: var(--space-3); border-top: var(--outline-w) solid var(--outline); }
+
+/* ── Trajectory chart + readout ──────────────────────────────────────────── */
+/* The box is the size container; the grid inside it reflows (a container can't query itself). */
+.twin-traj-box { container-type: inline-size; min-width: 0; }
+.twin-traj {
+  display: grid; grid-template-columns: minmax(0, 1fr) minmax(200px, 250px); gap: var(--space-3) var(--space-5);
+  align-items: start;
+}
+.twin-traj__plot { position: relative; min-width: 0; border-radius: var(--radius-sm); }
+.twin-traj__plot svg { display: block; overflow: visible; }
+.twin-traj__plot:focus-visible { outline: var(--focus-ring); outline-offset: 4px; }
+.twin-traj__band, .twin-traj__col { stroke: var(--surface-1); stroke-width: 1; stroke-linejoin: round; }
+.twin-traj__sep { stroke: var(--baseline); stroke-width: 1; stroke-dasharray: 3 3; }
+.twin-traj__sel { stroke: var(--ink-1); stroke-width: 2; }
+.twin-traj__sel-col { fill: none; stroke: var(--ink-1); stroke-width: 2; }
+.twin-traj__hit { fill: transparent; cursor: crosshair; touch-action: pan-y; }
+.twin-traj__table { grid-column: 1 / -1; }
+.twin-traj__thin rect { fill: var(--surface-1); opacity: 0.5; }
+.twin-tick--today { fill: var(--ink-1); font-size: 11px; font-weight: 700; }
+
+.twin-readout { min-width: 0; font-size: var(--text-sm); }
+.twin-readout__h { margin: 0; font-size: var(--text-md); line-height: 1.3; }
+.twin-readout__h strong { font-family: var(--font-display); font-weight: var(--weight-display); font-size: var(--text-lg); letter-spacing: var(--tracking-tight); }
+.twin-readout__n { color: var(--ink-3); font-weight: 600; }
+.twin-readout__sub { margin: 2px 0 0; font-size: var(--text-xs); color: var(--ink-3); }
+.twin-readout__list { margin: var(--space-3) 0 0; padding: 0; list-style: none; display: grid; gap: 6px; }
+.twin-readout__list li { display: grid; grid-template-columns: 14px minmax(0, 1fr) auto; align-items: baseline; gap: 8px; line-height: 1.3; }
+.twin-readout__list li.is-start .twin-readout__label { font-weight: 800; }
+.twin-readout__label { min-width: 0; overflow-wrap: anywhere; color: var(--ink-1); }
+.twin-readout__val { white-space: nowrap; text-align: right; }
+.twin-readout__val strong { font-weight: 800; }
+.twin-readout__val.is-under { color: var(--ink-3); font-size: var(--text-xs); }
+.twin-readout__count { margin-left: 4px; color: var(--ink-3); font-size: var(--text-xs); }
+.twin-readout__rest .twin-readout__label { color: var(--ink-3); }
+.twin-sw { align-self: center; width: 14px; height: 14px; border-radius: 4px; box-shadow: 0 0 0 1px var(--mark-stroke); }
+.twin-sw.is-rest { box-shadow: none; border: 1.5px dashed var(--ink-3); }
+
+@container (max-width: 640px) {
+  .twin-traj { grid-template-columns: minmax(0, 1fr); }
+  .twin-readout__list { grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr)); column-gap: var(--space-4); }
+}
+
+/* ── Bars (first stops, seniority, ranked lists) ─────────────────────────── */
+.twin-bars { width: 100%; border-collapse: collapse; table-layout: fixed; }
+.twin-bars th, .twin-bars td { padding: 5px 0; vertical-align: middle; }
+.twin-bars__label { width: 40%; text-align: left; font-weight: 600; font-size: var(--text-sm); line-height: 1.25; padding-right: var(--space-3) !important; overflow-wrap: anywhere; }
+.twin-bars__row { display: flex; align-items: center; gap: 8px; }
+.twin-bars__bar {
+  display: block; height: 18px; min-width: 3px; width: calc(var(--w) * (100% - 3.4em));
+  border-radius: 0 5px 5px 0;
+  background: var(--data-mono);
+  box-shadow: inset 0 0 0 1px var(--mark-stroke);
+}
+.twin-bars__val { font-size: var(--text-sm); font-weight: 700; white-space: nowrap; }
+.twin-bars__n { width: 4.5em; text-align: right; font-size: var(--text-xs); color: var(--ink-3); }
+.twin-bars tr.is-muted .twin-bars__label { color: var(--ink-3); font-weight: 500; font-style: italic; }
+.twin-bars tr.is-muted .twin-bars__bar { background: var(--sector-neutral); }
+.twin-bars tr.is-muted .twin-bars__val { color: var(--ink-3); font-weight: 600; }
+.twin-sen--ic { background: var(--seq-200) !important; }
+.twin-sen--mgr { background: var(--seq-500) !important; }
+.twin-legend { display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-4); margin: 0 0 var(--space-3); padding: 0; list-style: none; font-size: var(--text-xs); color: var(--ink-2); }
+.twin-legend li { display: inline-flex; align-items: center; gap: 6px; }
+.twin-legend__key { width: 12px; height: 12px; border-radius: 3px; box-shadow: 0 0 0 1px var(--mark-stroke); }
+
+.twin-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-6); }
+.twin-pair__h { margin: 0 0 var(--space-2); font-size: var(--text-xs); font-weight: 800; letter-spacing: var(--tracking-caps); text-transform: uppercase; color: var(--ink-2); }
+
+.twin-figs { display: flex; flex-wrap: wrap; gap: var(--space-3) var(--space-6); margin-bottom: var(--space-4); }
+.twin-fig { margin: 0; color: var(--ink-2); }
+.twin-fig strong, .twin-mgr-list strong {
+  display: block; font-family: var(--font-display); font-size: var(--text-2xl); font-weight: var(--weight-display);
+  color: var(--ink-1); letter-spacing: var(--tracking-tight); line-height: 1.1;
+}
+.twin-mgr-list { margin: 0; padding: 0; list-style: none; display: grid; gap: var(--space-3); color: var(--ink-2); }
+
+/* Line chart (time to manager) */
+.twin-line { position: relative; border-radius: var(--radius-sm); }
+.twin-line svg { display: block; overflow: visible; }
+.twin-line:focus-visible { outline: var(--focus-ring); outline-offset: 4px; }
+.twin-gridline { stroke: var(--hairline); stroke-width: 1; }
+.twin-axis { stroke: var(--baseline); stroke-width: 1.5; }
+.twin-tick { fill: var(--ink-axis); font-size: 11px; font-weight: 600; }
+.twin-tick--title { font-size: 11px; font-weight: 600; }
+.twin-line__path { fill: none; stroke: var(--data-mono); stroke-width: 2.5; stroke-linejoin: round; stroke-linecap: round; }
+.twin-line__area { fill: var(--data-mono); opacity: 0.12; }
+.twin-line__dot { fill: var(--data-mono); stroke: var(--surface-1); stroke-width: 2; transition: r var(--dur-1) var(--ease); }
+.twin-line__end { fill: var(--ink-1); font-size: var(--text-sm); font-weight: 800; }
+.twin-line__cross { stroke: var(--ink-axis); stroke-width: 1; }
+.twin-line__hit { fill: transparent; cursor: crosshair; }
+.twin-tip {
+  position: absolute; z-index: 5; pointer-events: none;
+  display: grid; gap: 1px; padding: 8px 10px; min-width: 120px;
+  background: var(--surface-1); border: var(--outline-w) solid var(--outline); border-radius: var(--radius-sm); box-shadow: var(--shadow-pop-sm);
+  font-size: var(--text-xs); color: var(--ink-2); white-space: nowrap;
+}
+.twin-tip.is-flipped { transform: translateX(-100%); }
+.twin-tip strong { font-size: var(--text-md); color: var(--ink-1); }
+.twin-tip__detail { color: var(--ink-3); }
+
+.twin-details { margin-top: var(--space-3); font-size: var(--text-sm); }
+.twin-details summary { cursor: pointer; width: fit-content; color: var(--ink-2); font-weight: 700; }
+.twin-table-wrap { overflow-x: auto; }
+.twin-table { width: 100%; margin-top: var(--space-2); border-collapse: collapse; font-size: var(--text-sm); }
+.twin-table th, .twin-table td { padding: 6px 10px 6px 0; border-bottom: 1px solid var(--hairline); text-align: left; white-space: nowrap; }
+.twin-table thead th { color: var(--ink-2); font-weight: 700; font-size: var(--text-xs); vertical-align: bottom; }
+.twin-table tbody th { font-weight: 600; }
+.twin-table__n { display: block; font-weight: 500; color: var(--ink-3); }
+
+/* ── Footer ──────────────────────────────────────────────────────────────── */
+.twin-foot {
+  display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: var(--space-4);
+  margin-top: var(--space-6); padding-top: var(--space-4); border-top: var(--outline-w) dashed var(--baseline);
+  color: var(--ink-3); font-size: var(--text-sm);
+}
+.twin-foot__text { display: grid; gap: var(--space-2); max-width: 80ch; }
+.twin-foot p { margin: 0; max-width: 80ch; }
+
+/* ── Motion ──────────────────────────────────────────────────────────────── */
+.twin-grow { transform-origin: left center; animation: twin-grow var(--dur-3) var(--ease) both; animation-delay: calc(var(--i, 0) * 30ms); }
+@keyframes twin-grow { from { transform: scaleX(0); } }
+@keyframes twin-rise { from { opacity: 0; transform: translateY(8px); } }
+@media (prefers-reduced-motion: reduce) {
+  .twin-results, .twin-stats > li, .twin-sec, .twin-grow { animation: none; }
+  .twin-example:hover, .twin-modes__opt:hover input:not(:checked) + .twin-modes__face { transform: none; }
+}
+
+/* ── Responsive ──────────────────────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .twin-grid { grid-template-columns: minmax(0, 1fr); }
+  .twin-grid--student { grid-template-columns: minmax(0, 1fr); grid-template-areas: 'stop' 'emp' 'path' 'cta'; grid-template-rows: none; }
+  .twin-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .twin-stats--n1 > li, .twin-stats--n3 > li:last-child { grid-column: 1 / -1; }
+}
+@media (max-width: 639.98px) {
+  .twin { padding-top: var(--space-5); }
+  .twin-modes { gap: var(--space-3); margin-bottom: var(--space-5); }
+  .twin-modes__face { min-height: 64px; padding: 10px 12px; column-gap: 10px; }
+  .twin-modes__face::before { width: 18px; height: 18px; box-shadow: inset 0 0 0 3px var(--surface-1); }
+  .twin-modes__label { font-size: var(--text-lg); }
+  .twin-modes__hint { font-size: var(--text-xs); }
+  .twin-form__program { flex-basis: 100%; max-width: none; }
+  /* Touch targets: every pill is at least 44px tall on phones. */
+  .twin-chip span { min-height: 44px; padding: 8px 14px; }
+  .twin-example { min-height: 44px; }
+  .twin-hint { max-width: none; }
+  /* Pick a first job: one row of chips that scrolls sideways, rather than a tall stack. */
+  .twin-path__chips .twin-chips {
+    flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none;
+    margin: -6px calc(-1 * var(--space-4)); padding: 6px var(--space-4) 8px;
+    scroll-padding-inline: var(--space-4);
+  }
+  .twin-path__chips .twin-chips::-webkit-scrollbar { display: none; }
+  .twin-path__chips .twin-chip { flex: none; }
+  .twin-path__chips .twin-chip span { white-space: nowrap; }
+  .twin-stats { gap: var(--space-4); }
+  .twin-path__stats, .twin-pair { grid-template-columns: minmax(0, 1fr); gap: var(--space-4); }
+  .twin-sticker { right: var(--space-4); max-width: calc(100% - 2 * var(--space-4)); }
+  /* Bars: the name on its own line, so the bar gets the full width. */
+  .twin-bars, .twin-bars tbody { display: block; }
+  .twin-bars tr { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; column-gap: var(--space-2); padding: 3px 0 5px; }
+  .twin-bars th.twin-bars__label { grid-column: 1 / -1; width: auto; padding: 0 0 3px !important; }
+  .twin-bars td { padding: 0; }
+  .twin-bars__n { width: auto; }
+  .twin-emp__chip { font-size: var(--text-sm); }
+  .twin-emp__chip:first-child { font-size: var(--text-md); }
+}
+@media (max-width: 380px) {
+  .twin-modes__hint { display: none; }
+  .twin-stats { grid-template-columns: minmax(0, 1fr); }
+}
+
+@media (forced-colors: active) {
+  .twin-bars__bar, .twin-sw, .twin-dot, .twin-legend__key { forced-color-adjust: none; border: 1px solid CanvasText; }
+  .twin-modes__face, .twin-chip span { border-color: CanvasText; }
+  .twin-modes__opt input:checked + .twin-modes__face, .twin-chip input:checked + span { outline: 3px solid Highlight; }
+}

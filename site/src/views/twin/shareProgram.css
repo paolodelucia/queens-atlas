@@ -1,0 +1,3 @@
+/* Share + Save image: a row of two pills. The pills themselves are CopyLink / Button / LinkButton. */
+.share-program { display: inline-flex; flex-wrap: wrap; align-items: center; gap: var(--space-3); min-width: 0; }
+.share-program .btn svg { flex: none; }
