@@ -663,7 +663,8 @@ describe('RiverView', () => {
     it('puts the year readout under the chart', async () => {
       const { container } = renderAt('/river?view=years');
       await screen.findByRole('slider', { name: 'Year after graduating' });
-      expect(container.querySelector('.yrs')).not.toHaveClass('yrs--side');
+      // The first render uses the wide fallback; the measured phone width arrives a moment later.
+      await waitFor(() => expect(container.querySelector('.yrs')).not.toHaveClass('yrs--side'));
     });
   });
 });
